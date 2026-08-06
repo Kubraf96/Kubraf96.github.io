@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 import projects from "../data/projects";
+import heroImage from "../assets/images/hero.png";
+import "../styles/hero.css";
 
 function HomePage() {
   const featuredProjects = projects.slice(0, 2);
@@ -7,19 +9,24 @@ function HomePage() {
   return (
     <div className="page">
       <section className="hero-section">
-        <p className="eyebrow">Portfolio</p>
-        <h1>Hej, jeg hedder Dit Navn.</h1>
-        <p className="hero-text">
-          Jeg arbejder med frontend, design og digitale produkter. Her samler
-          jeg projekter, proces og det, jeg lærer undervejs.
-        </p>
-        <div className="actions">
-          <Link className="button" to="/projects">
-            Se projekter
+        <div className="hero-content">
+          <h1>Velkommen</h1>
+
+          <h2>Hej, jeg er Kübra</h2>
+
+          <p>
+            Jeg elsker at udforske idéer gennem farver, typografi, animationer
+            og små visuelle detaljer. For mig er det netop de små elementer, der
+            skaber en stærk identitet og gør et design levende.
+          </p>
+
+          <Link className="search-box" to="/projects">
+            🔍 Udforsk mit portfolio
           </Link>
-          <Link className="button secondary" to="/contact">
-            Kontakt mig
-          </Link>
+        </div>
+
+        <div className="hero-image">
+          <img src={heroImage} alt="Hero image" />
         </div>
       </section>
 
