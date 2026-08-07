@@ -2,6 +2,10 @@ import { Link } from "react-router";
 import Navbar from "./Navbar";
 import heroImage from "../assets/images/hero_portrait.png";
 import "../styles/hero.css";
+import star from "../assets/icons/star_icon.svg";
+import flower from "../assets/icons/flower_icon.svg";
+import globe from "../assets/icons/globe_icon.svg";
+import search from "../assets/icons/search_icon.svg";
 
 function Hero() {
   return (
@@ -20,12 +24,15 @@ function Hero() {
           </p>
 
           <Link className="search-box" to="/projects">
-            🔍 Udforsk mit portfolio
+            <img src={search} alt="Søg" /> Udforsk mit portfolio
           </Link>
         </div>
       </div>
 
       <img className="hero-portrait" src={heroImage} alt="Portræt af Kübra" />
+      <img className="icon star" src={star} alt="" />
+      <img className="icon flower" src={flower} alt="" />
+      <img className="icon globe" src={globe} alt="" />
     </section>
   );
 }
