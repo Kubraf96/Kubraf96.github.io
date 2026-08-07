@@ -3,13 +3,14 @@
   height: 100vh;
   overflow: hidden;
   background: #f7f4ef;
+  padding-top: 80px;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
 
-  width: min(100% - 4rem, 1200px);
+  width: min(100% - 8rem, 1000px);
   height: 100%;
 
   margin: 0 auto;
@@ -18,30 +19,34 @@
   flex-direction: column;
   justify-content: center;
 }
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-
-  width: min(100% - 4rem, 1200px);
-  height: 100%;
-
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.hero-content h1 {
+  font-family: "Genty", cursive;
+  color: #132fb4;
+  margin: 0;
+  margin-bottom: -1rem;
+  margin-left: -3rem;
+}
+.hero-text {
+  text-align: center;
+  margin-left: -5rem;
 }
 
 .hero-intro {
   font-size: 2rem;
   font-weight: 600;
+  color: #132fb4;
+  margin: 0 auto;
+  margin-left: -2.5rem;
 }
 
 .hero-description {
-  max-width: 600px;
-  font-size: 1.25rem;
+  max-width: 520px;
+  margin: 1rem auto 0;
+  font-size: 1.15rem;
   line-height: 1.8;
+  color: #252525;
+  font-weight: 400;
+  text-align: left;
 }
 
 .search-box {

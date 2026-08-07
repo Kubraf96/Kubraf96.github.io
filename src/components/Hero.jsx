@@ -8,19 +8,21 @@ function Hero() {
     <section className="hero-section">
       <Navbar />
       <div className="hero-content">
-        <h1>Velkommen</h1>
+        <div className="hero-text">
+          <h1>Velkommen</h1>
 
-        <p className="hero-intro">Hej, jeg hedder Kübra.</p>
+          <p className="hero-intro">Hej, jeg hedder Kübra.</p>
 
-        <p className="hero-description">
-          Jeg elsker at udforske idéer gennem farver, typografi, og små visuelle
-          detaljer. For mig er det netop de små elementer, der skaber en stærk
-          identitet og gør et design levende.
-        </p>
+          <p className="hero-description">
+            Jeg elsker at udforske idéer gennem farver, typografi, og små
+            visuelle detaljer. For mig er det netop de små elementer, der skaber
+            en stærk identitet og gør et design levende.
+          </p>
 
-        <Link className="search-box" to="/projects">
-          🔍 Udforsk mit portfolio
-        </Link>
+          <Link className="search-box" to="/projects">
+            🔍 Udforsk mit portfolio
+          </Link>
+        </div>
       </div>
 
       <img className="hero-portrait" src={heroImage} alt="Portræt af Kübra" />
