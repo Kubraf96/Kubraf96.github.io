@@ -1,0 +1,50 @@
+.about-section {
+  width: min(100% - 4rem, 1100px);
+  margin: 0 auto;
+  padding: 8rem 0 5rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.about-left {
+  flex: 0 0 340px;
+}
+
+.about-title {
+  font-family: "Genty", cursive;
+  font-size: clamp(4rem, 8vw, 6rem);
+  color: #132fb4;
+  margin-bottom: 3rem;
+}
+
+.about-image {
+  width: 30%;
+  border-radius: 8px;
+  display: block;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.about-right p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #252525;
+}
+
+
+.smiley {
+  position: relative;
+  margin-left: 80%;
+  transform: translateX(-50%);
+  width: 90px;
+  display: block;
+  margin-top: 8rem;
+}
