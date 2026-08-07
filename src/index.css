@@ -4,6 +4,13 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Bricolage";
+  src: url("./assets/fonts/BricolageGrotesque_36pt_Condensed-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
 :root {
   font-family:
     Inter,
@@ -52,16 +59,19 @@ textarea {
   right: 0;
   z-index: 100;
 
+  background: #f7f4ef;
+}
+
+.site-header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
   padding: 1.25rem 0;
-  background: #f7f4ef;
 }
-
 .brand {
   color: #111827;
   font-weight: 800;
