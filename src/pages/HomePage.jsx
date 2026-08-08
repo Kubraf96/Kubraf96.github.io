@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import projects from "../data/projects";
 
