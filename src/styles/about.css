@@ -17,13 +17,14 @@
 
 .about-title {
   font-family: "Genty", cursive;
-  font-size: clamp(4rem, 8vw, 6rem);
+  font-size: h1;
   color: #132fb4;
-  margin-bottom: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: -2rem;
 }
 
 .about-image {
-  width: 30%;
+  width: 25%;
   border-radius: 8px;
   display: block;
 }

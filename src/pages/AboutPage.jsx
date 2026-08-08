@@ -9,7 +9,7 @@ function AboutPage() {
       <Navbar />
 
       <section className="about-section">
-        <h1 className="about-title">About me.</h1>
+        <h1 className="about-title">Om mig.</h1>
 
         <div className="about-content">
           <img src={portrait} alt="Portræt af Kübra" className="about-image" />
