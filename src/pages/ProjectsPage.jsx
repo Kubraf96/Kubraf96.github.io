@@ -20,7 +20,9 @@ function ProjectsPage() {
         <section className="project-grid" aria-label="Projektliste">
           {projects.map((project) => (
             <article className="project-card" key={project.slug}>
-              <img src={project.image} alt={`Preview af ${project.title}`} />
+              <Link to={`/projects/${project.slug}`} className="image-link">
+                <img src={project.image} alt={`Preview af ${project.title}`} />
+              </Link>
               <div className="project-card-content">
                 <p className="eyebrow">{project.year}</p>
                 <h2>{project.title}</h2>

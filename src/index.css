@@ -227,6 +227,15 @@ p {
   object-fit: cover;
 }
 
+.image-link {
+  display: block;
+}
+
+.image-link img {
+  display: block;
+  cursor: pointer;
+}
+
 .project-card-content {
   padding: 1.1rem;
 }
