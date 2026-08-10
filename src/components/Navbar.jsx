@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import colorLogo from "../assets/icons/colorlogo.svg";
 
 function Navbar() {
   return (
     <header className="site-header">
       <NavLink className="brand" to="/">
-        Dit Navn
+        <img src={colorLogo} alt="Kubra logo" />
       </NavLink>
 
       <nav className="site-nav" aria-label="Primær navigation">
