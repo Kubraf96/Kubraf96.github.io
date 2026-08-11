@@ -71,7 +71,7 @@ const projects = [
           "Jeg benyttede double exposure-metoden og byggede scenen op med flere billedlag og integrerede mellemgrund og baggrund i kompositionen.",
       },
       {
-        title: "Farve, lys og finpudsning",
+        title: "Farve og lys",
         description:
           "Jeg arbejdede løbende med pensler, justeringlag, lys, farver og kontrast for at skabe sammenhæng mellem elementerne og fastholde Ellie som det visuelle fokus.",
       },
@@ -85,13 +85,34 @@ const projects = [
     ],
   },
   {
-    slug: "surrealism",
+    slug: "surreal-collage",
+    subtitle: "Surreal Collage",
     title: "Surrealism collage",
-    year: "2025",
-    summary: "En collage med surrealistisk og experimental visuel stil.",
-    description:
-      "Dette projektkort viser et af dine collage-billeder fra productimages-mappen.",
-    tags: ["Collage", "Surrealism", "Kunst"],
+    year: "2026",
+    summary:
+      "En surrealistisk Photoshop-collage, hvor religiøse og kosmiske elementer kombineres gennem compositing for at skabe en dramatisk og urealistisk scene.",
+    description: [
+  "I dette projekt skabte jeg en surrealistisk collage i Adobe Photoshop ved at kombinere forskellige billedelementer, som normalt ikke hører sammen.","Jeg tog udgangspunkt i en nonne og det kosmiske univers og ønskede at skabe en mørk, mystisk og eksistentiel stemning.", "Gennem kombinationen af religiøse og kosmiske motiver ville jeg skabe en scene, der føles både fascinerende og en smule foruroligende.", "Jeg arbejdede med billedmanipulation, fritlægning, lagmasker, compositing og farvejustering for at samle de forskellige elementer til én sammenhængende komposition. Den brændende planet, laserstrålerne, bjergene og planeterne blev valgt og placeret for at understøtte den dystre og surrealistiske atmosfære.", "Gennem kontraster i farve, størrelse og placering skabte jeg et tydeligt visuelt hierarki, hvor nonnen og den brændende planet fungerer som de primære fokuspunkter.", "Projektet gav mig mulighed for at undersøge, hvordan forskellige visuelle elementer kan kombineres til at skabe en ny og urealistisk virkelighed og samtidig fremkalde en bestemt stemning og følelsesmæssig reaktion hos beskueren.",
+    ],
+    tools: ["Adobe Photoshop"],
+    tags: ["Collage", "Surrealism", "Image manipulation", "Compositing"],
+    process: [
+      {
+        title: "Idé og eksperimentering",
+        description:
+          "Jeg tog udgangspunkt i kombinationen af nonnen og det kosmiske univers, som jeg fritlagde fra deres oprindelige billeder og fjernede øjnene på nonnen.",
+      },
+      {
+        title: "Compositing",
+        description:
+          "Jeg fritlagde og sammensatte de udvalgte elementer i Photoshop. Jeg arbejdede med skalering, placering og overlap for at skabe dybde og et tydeligt visuelt hierarki. Den brændende planet og laserstrålerne blev centrale elementer i den endelige komposition.",
+      },
+      {
+        title: "Farve og finpudsning",
+        description:
+          "Til sidst arbejdede jeg med farvejustering, kontrast og lys for at få de forskellige billeder til at fungere som én samlet scene.",
+      },
+    ],
     image: surrealismImg,
     links: [
       {
