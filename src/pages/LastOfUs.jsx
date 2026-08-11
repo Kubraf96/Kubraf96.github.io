@@ -113,7 +113,7 @@ function LastOfUs() {
                 <img
                   className="last-of-us-process-image"
                   src={LOUstep4}
-                  alt="Farve, lys og finpudsning"
+                  alt="Farve og lys"
                 />
 
                 <p>{project.process[3].description}</p>
