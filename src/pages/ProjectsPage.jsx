@@ -24,15 +24,25 @@ function ProjectsPage() {
                 <img src={project.image} alt={`Preview af ${project.title}`} />
               </Link>
               <div className="project-card-content">
-                <p className="eyebrow">{project.year}</p>
-                <h2>{project.title}</h2>
-                <p>{project.summary}</p>
-                <ul className="tag-list">
-                  {project.tags.map((tag) => (
-                    <li key={tag}>{tag}</li>
-                  ))}
-                </ul>
-                <Link to={`/projects/${project.slug}`}>Se projekt</Link>
+                <div>
+                  <p className="eyebrow">{project.year}</p>
+                  <h2>{project.title}</h2>
+                  <p>{project.summary}</p>
+                </div>
+                <div className="project-card-footer">
+                  <ul className="tag-list">
+                    {project.tags.map((tag) => (
+                      <li key={tag}>{tag}</li>
+                    ))}
+                  </ul>
+                  <Link
+                    to={`/projects/${project.slug}`}
+                    className="project-card-link"
+                  >
+                    <span className="project-card-link-icon">➡️</span>
+                    <span>Læs mere om projektet</span>
+                  </Link>
+                </div>
               </div>
             </article>
           ))}
