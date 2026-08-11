@@ -312,7 +312,7 @@ p {
 }
 
 .project-card a {
-  color: #5b21b6;
+  color: #132FB4;
   font-weight: 800;
 }
 
@@ -329,8 +329,10 @@ p {
 .back-link {
   display: inline-flex;
   margin-bottom: 1.5rem;
-  color: #5b21b6;
-  font-weight: 800;
+  color: #132FB4;
+  font-family: "Bricolage", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .tag-list {
@@ -346,7 +348,7 @@ p {
   border: 1px solid #ded6ca;
   border-radius: 999px;
   background: #ffffff;
-  color: #475569;
+  color: #252525;
   padding: 0.35rem 0.7rem;
   font-size: 0.9rem;
   font-weight: 700;
