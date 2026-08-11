@@ -1,0 +1,332 @@
+/* ========================================
+   LAST OF US
+   ======================================== */
+
+.last-of-us-page {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  padding: 8rem 0 6rem;
+}
+
+
+/* ========================================
+   BACK LINK
+   ======================================== */
+
+.last-of-us-page .back-link {
+  display: inline-flex;
+  margin-bottom: 3rem;
+
+  color: #D3235A;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+/* ========================================
+   HERO
+   ======================================== */
+
+.last-of-us-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 520px);
+  gap: 4rem;
+  align-items: start;
+}
+
+
+/* ========================================
+   LEFT SIDE
+   ======================================== */
+
+.last-of-us-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+
+.last-of-us-header {
+  margin-bottom: 3rem;
+}
+
+.last-of-us-header .eyebrow {
+  margin-bottom: 2rem;
+}
+
+.last-of-us-subtitle {
+  margin: 0 0 1.25rem;
+
+  color: #526173;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-family:Bricolage, sans-serif
+}
+
+.last-of-us-header h1 {
+  max-width: 650px;
+  margin: 0;
+
+  color: #132FB4;
+  font-size: clamp(4rem, 7vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-family: "Bricolage", sans-serif;
+}
+
+
+/* ========================================
+   DESCRIPTION
+   ======================================== */
+
+.last-of-us-description {
+  max-width: 620px;
+  margin-bottom: 2.5rem;
+}
+
+.last-of-us-description h2 {
+  margin-bottom: 1rem;
+
+  color: #111827;
+  font-size: 1.2rem;
+}
+
+.last-of-us-description p {
+  margin: 0;
+
+  color: #526173;
+  font-size: 1.08rem;
+  line-height: 1.7;
+    margin-bottom: 1.75rem;
+}
+
+
+
+/* ========================================
+   META
+   ======================================== */
+.last-of-us-meta {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.last-of-us-meta > div {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.last-of-us-meta p {
+  margin: 0;
+}
+
+.last-of-us-meta .detail-label {
+  color: #111827;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family:sans-serif
+}
+
+.last-of-us-meta > div > p:last-child {
+  color: #111827;
+  font-size: 1rem;
+}
+
+
+/* ========================================
+   TAGS
+   ======================================== */
+
+.last-of-us-page .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  padding: 0;
+  margin: 0 0 2rem;
+
+  list-style: none;
+}
+
+.last-of-us-page .tag-list li {
+  padding: 0.45rem 0.8rem;
+
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+
+  background: #ffffff;
+  color: #475569;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   POSTER
+   ======================================== */
+
+.last-of-us-poster {
+  position: sticky;
+  top: 7rem;
+
+  overflow: hidden;
+
+  border-radius: 1.5rem;
+
+  background: #f7f4ef;
+}
+
+.last-of-us-poster {
+  position: sticky;
+  top: 7rem;
+  overflow: hidden;
+  border-radius: 0;
+  background: #f7f4ef;
+}
+
+
+/* ========================================
+   PROCESS
+   ======================================== */
+
+.last-of-us-process {
+  margin-top: 7rem;
+}
+
+.last-of-us-process .section-heading {
+  margin-bottom: 2rem;
+}
+
+.last-of-us-process .section-heading .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.last-of-us-process .section-heading h2 {
+  margin: 0;
+
+  color: #111827;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+
+/* ========================================
+   PROCESS GRID
+   ======================================== */
+
+.last-of-us-process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+
+/* ========================================
+   PROCESS CARDS
+   ======================================== */
+
+.last-of-us-process-card {
+  min-height: 300px;
+  padding: 1.5rem;
+
+  border: 1px solid #e5ddd2;
+  border-radius: 1.25rem;
+
+  background: #fffaf3;
+}
+
+.last-of-us-process-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+
+  border-radius: 50%;
+
+  background: #132FB4;
+  color: #ffffff;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.last-of-us-process-card h3 {
+  margin: 0 0 1rem;
+
+  color: #111827;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.last-of-us-process-card p {
+  margin: 0;
+
+  color: #526173;
+  line-height: 1.7;
+}
+
+
+/* ========================================
+   TABLET
+   ======================================== */
+
+@media (max-width: 1000px) {
+
+  .last-of-us-hero {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .last-of-us-poster {
+    position: static;
+    max-width: 600px;
+  }
+
+  .last-of-us-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 600px) {
+
+  .last-of-us-page {
+    padding-top: 6rem;
+  }
+
+  .last-of-us-header h1 {
+    font-size: clamp(3.2rem, 16vw, 5rem);
+  }
+
+  .last-of-us-meta {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .last-of-us-process {
+    margin-top: 5rem;
+  }
+
+  .last-of-us-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .last-of-us-process-card {
+    min-height: auto;
+  }
+
+}
