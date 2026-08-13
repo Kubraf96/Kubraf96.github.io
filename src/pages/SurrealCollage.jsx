@@ -31,8 +31,6 @@ function SurrealCollage() {
             </div>
 
             <div className="surreal-collage-description">
-              <h2>Om projektet</h2>
-
               <p>{project.description}</p>
             </div>
 
