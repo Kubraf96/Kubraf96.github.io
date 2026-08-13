@@ -2,7 +2,7 @@ import controllogoImg from "../assets/productimages/control_logo.svg";
 import controlImg from "../assets/productimages/Control.png";
 import lastOfUsImg from "../assets/productimages/LastOfUs_poster_preview.jpg";
 import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
-import twoGatherLogo from "../assets/productimages/2gather/2gather_logo.svg";
+import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
 
 const projects = [
   {
@@ -123,13 +123,15 @@ const projects = [
   },
   {
     slug: "2gather-event-app",
-    title: "2GATHER event app",
+    title: "2GATHER",
     year: "2026",
-    summary: "Event-app til at samle venner og organisere arrangementer.",
+    summary:
+      "2GATHER er en social platform, der bringer mennesker sammen gennem lokale aktiviteter og fælles interesser.",
     description:
-      "2GATHER er en event-app med chat, invitationer og bekræftelse af deltagelse. Dette er et eksempelprojekt med logo-thumbnail.",
+      "2GATHER er en social eventplatform, der gør det lettere at finde fællesskaber gennem lokale aktiviteter og fælles interesser. Brugerne kan udforske, oprette og deltage i events samt skabe kontakt til andre deltagere.",
     tags: ["React", "Events", "Chat"],
-    image: twoGatherLogo,
+    tools: ["Figma", "Jitter", "React", "JavaScript"],
+    image: twogatherhero,
     links: [
       {
         label: "Se projekt",
