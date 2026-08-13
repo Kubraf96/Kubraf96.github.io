@@ -35,7 +35,6 @@ function LastOfUs() {
             </div>
 
             <div className="last-of-us-description">
-              <h2>Om projektet</h2>
               {project.description.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}

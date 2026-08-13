@@ -5,6 +5,7 @@ import "../styles/surrealcollage.css";
 import collage1 from "../assets/images/surreal_collage/collage_1.jpg";
 import collage2 from "../assets/images/surreal_collage/collage_2.jpg";
 import collage3 from "../assets/images/surreal_collage/collage_3.jpg";
+import arrowIcon from "../assets/icons/arrow.svg";
 
 function SurrealCollage() {
   const project = projects.find((item) => item.slug === "surreal-collage");
@@ -19,7 +20,8 @@ function SurrealCollage() {
 
       <article className="surreal-collage-page">
         <Link className="back-link" to="/projects">
-          Tilbage til projekter
+          <img className="project-back-arrow" src={arrowIcon} alt="" />
+          <span>Tilbage til projekter</span>
         </Link>
 
         <section className="surreal-collage-hero">
@@ -31,7 +33,15 @@ function SurrealCollage() {
             </div>
 
             <div className="surreal-collage-description">
-              <p>{project.description}</p>
+              <h2>Om projektet</h2>
+
+              {Array.isArray(project.description) ? (
+                project.description.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))
+              ) : (
+                <p>{project.description}</p>
+              )}
             </div>
 
             <div className="surreal-collage-meta">
@@ -60,7 +70,6 @@ function SurrealCollage() {
         {project.process && (
           <section className="surreal-collage-process">
             <div className="section-heading">
-              <p className="surreal-collage-process-label">Proces</p>
               <h2>Fra idé til færdigt design</h2>
             </div>
 

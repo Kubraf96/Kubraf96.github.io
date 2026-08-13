@@ -8,7 +8,6 @@
   padding: 8rem 0 6rem;
 }
 
-
 /* ========================================
    BACK LINK
    ======================================== */
@@ -17,11 +16,10 @@
   display: inline-flex;
   margin-bottom: 5rem;
 
-  color: #132FB4;
+  color: #ec0bb1;
   font-weight: 800;
   text-decoration: none;
-}
-
+} 
 
 /* ========================================
    HERO
@@ -29,11 +27,10 @@
 
 .two-gather-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(500px, 1.2fr);
-  gap: 5rem;
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 4rem;
+  align-items: start;
 }
-
 
 /* ========================================
    LEFT SIDE
@@ -44,7 +41,6 @@
   flex-direction: column;
   align-items: flex-start;
 }
-
 
 /* ========================================
    HEADER
@@ -58,20 +54,22 @@
 .two-gather-subtitle {
   margin: 0 0 1.25rem;
 
-  color: #111827;
-  font-size: 1rem;
-  letter-spacing: 0.3em;
+  color: #526173;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
   text-transform: uppercase;
+  font-family: "Bricolage", sans-serif;
 }
 
 .two-gather-header h1 {
   margin: 0 0 1.5rem;
 
-  color: #132FB4;
+  color: #132fb4;
   font-family: "Bricolage", sans-serif;
-  font-size: clamp(4rem, 7vw, 7rem);
+  font-size: clamp(4rem, 7vw, 6.5rem);
   line-height: 0.9;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
 }
 
 .two-gather-summary {
@@ -82,7 +80,6 @@
   font-size: 1.08rem;
   line-height: 1.7;
 }
-
 
 /* ========================================
    META
@@ -110,7 +107,6 @@
   color: #111827;
   font-weight: 700;
 }
-
 
 /* ========================================
    TAGS
@@ -140,7 +136,6 @@
   font-weight: 700;
 }
 
-
 /* ========================================
    HERO IMAGE
    ======================================== */
@@ -158,7 +153,6 @@
   object-fit: contain;
 }
 
-
 /* ========================================
    PRODUKTET I PRAKSIS
    ======================================== */
@@ -167,7 +161,6 @@
   margin-top: 8rem;
   padding: 0 0 7rem;
 }
-
 
 /* ========================================
    INTRO
@@ -181,7 +174,7 @@
 .two-gather-product-label {
   margin: 0 0 0.75rem;
 
-  color: #132FB4;
+  color: #132fb4;
   font-size: 1.1rem;
   font-weight: 800;
 }
@@ -202,7 +195,6 @@
   line-height: 1.6;
 }
 
-
 /* ========================================
    CAROUSEL
    ======================================== */
@@ -220,7 +212,6 @@
 
   gap: 2rem;
 }
-
 
 /* ========================================
    PRODUCT IMAGE
@@ -245,7 +236,6 @@
 
   object-fit: contain;
 }
-
 
 /* ========================================
    PIL
@@ -289,7 +279,6 @@
   outline: none;
 }
 
-
 /* ========================================
    COUNTER
    ======================================== */
@@ -305,7 +294,6 @@
   font-weight: 700;
 }
 
-
 /* ========================================
    TITEL UNDER BILLEDET
    ======================================== */
@@ -313,7 +301,7 @@
 .two-gather-product-title {
   margin: 0.5rem 0 0;
 
-  color: #132FB4;
+  color: #132fb4;
 
   text-align: center;
 
@@ -322,13 +310,11 @@
   font-weight: 700;
 }
 
-
 /* ========================================
    TABLET
    ======================================== */
 
 @media (max-width: 1000px) {
-
   .two-gather-hero {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -342,16 +328,13 @@
     grid-template-columns: 60px minmax(0, 1fr) 60px;
     gap: 1rem;
   }
-
 }
-
 
 /* ========================================
    MOBIL
    ======================================== */
 
 @media (max-width: 800px) {
-
   .two-gather-page {
     padding-top: 6rem;
   }
@@ -380,16 +363,13 @@
     width: 2.5rem;
     height: 2.5rem;
   }
-
 }
-
 
 /* ========================================
    SMALL MOBILE
    ======================================== */
 
 @media (max-width: 500px) {
-
   .two-gather-product-showcase {
     grid-template-columns: 40px minmax(0, 1fr) 40px;
     gap: 0.5rem;
@@ -407,5 +387,4 @@
     width: 2rem;
     height: 2rem;
   }
-
 }

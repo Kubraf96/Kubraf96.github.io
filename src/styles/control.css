@@ -1,0 +1,379 @@
+/* ========================================
+   CONTROL PAGE
+   ======================================== */
+
+
+.control-page {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  padding: 8rem 0 6rem;
+}
+
+
+/* ========================================
+   BACK LINK
+   ======================================== */
+
+.control-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+font-family: "Bricolage", sans-serif;
+  margin-bottom: 5rem;
+
+  color: #ec0bb1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.control-back-link img {
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+
+/* ========================================
+   HERO
+   ======================================== */
+
+.control-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 4rem;
+  align-items: start;
+
+  margin-bottom: 10rem;
+}
+
+.control-hero-text {
+  max-width: 500px;
+  padding-top: 0;
+}
+
+.control-eyebrow {
+  margin: 0 0 1rem;
+
+  color: #526173;
+  font-family: "Bricolage", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+.control-hero h1 {
+  margin: 0 0 2rem;
+
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: clamp(4rem, 7vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+.control-hero-intro {
+  max-width: 500px;
+  margin: 0;
+
+  color: #526173;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.control-hero-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}
+
+
+/* ========================================
+   TAGS
+   ======================================== */
+
+.control-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  padding: 0;
+  margin: 2rem 0 0;
+
+  list-style: none;
+}
+
+.control-tags li {
+  padding: 0.45rem 0.8rem;
+
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+
+  background: #ffffff;
+  color: #475569;
+
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   COMMUNITY
+   ======================================== */
+
+.control-community {
+  margin-bottom: 11rem;
+}
+
+.control-section-heading {
+  max-width: 650px;
+  margin-bottom: 5rem;
+}
+
+.control-section-number {
+  margin: 0 0 1rem;
+
+  color: #132fb4;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.control-section-heading h2,
+.control-limited h2,
+.control-bloc-heading h2,
+.control-look-heading h2,
+.control-end h2 {
+  margin: 0 0 1.5rem;
+
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+}
+
+.control-section-heading p,
+.control-limited-text p,
+.control-bloc-heading p,
+.control-look-heading p {
+  max-width: 600px;
+
+  color: #526173;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
+/* ========================================
+   INSTAGRAM CONTENT
+   ======================================== */
+
+.control-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.control-content-item {
+  max-width: 430px;
+}
+
+.control-content-label {
+  display: flex;
+  gap: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.control-content-label > span {
+  color: #132fb4;
+  font-weight: 800;
+}
+
+.control-content-label strong {
+  color: #132fb4;
+}
+
+.control-content-label p {
+  margin: 0.35rem 0 0;
+
+  color: #526173;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.control-content-item video {
+  display: block;
+
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+
+  margin: 0 auto;
+
+  border-radius: 1rem;
+  transform: translateX(4rem);
+}
+
+
+/* ========================================
+   LESS STOCK
+   ======================================== */
+
+.control-limited {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 7rem;
+  align-items: start;
+
+  margin-bottom: 11rem;
+}
+
+.control-limited-text {
+  max-width: 600px;
+}
+
+.control-phone-video video {
+  display: block;
+transform: translateX(-7rem);
+
+  width: 100%;
+  max-width: 320px;
+
+  margin: 0 auto;
+
+  border-radius: 1rem;
+  margin-bottom: -13rem;
+}
+
+
+/* ========================================
+   BLOC PARTY
+   ======================================== */
+
+.control-bloc-party {
+  margin-bottom: 11rem;
+}
+
+.control-bloc-heading {
+  max-width: 650px;
+  margin-bottom: 4rem;
+}
+
+.control-bloc-image {
+  width: min(100%, 900px);
+  margin: 0 auto;
+}
+
+.control-bloc-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+
+/* ========================================
+   THE CONTROL LOOK
+   ======================================== */
+
+.control-look {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 6rem;
+  align-items: center;
+
+  margin-bottom: 11rem;
+}
+
+.control-look-heading {
+  max-width: 500px;
+}
+
+.control-look-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+
+/* ========================================
+   END
+   ======================================== */
+
+.control-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 4rem 0 2rem;
+
+  text-align: center;
+}
+
+.control-end img {
+  width: 180px;
+  height: 180px;
+
+  margin-bottom: 4rem;
+
+  object-fit: contain;
+}
+
+.control-end h2 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 800px) {
+
+  .control-page {
+    padding-top: 7rem;
+  }
+
+  .control-back-link {
+    margin-bottom: 5rem;
+  }
+
+  .control-hero,
+  .control-content-grid,
+  .control-limited,
+  .control-look {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .control-hero {
+    margin-bottom: 7rem;
+  }
+
+  .control-community,
+  .control-limited,
+  .control-bloc-party,
+  .control-look {
+    margin-bottom: 7rem;
+  }
+
+  .control-content-item {
+    max-width: 100%;
+  }
+
+  .control-content-item video {
+    max-width: 280px;
+  }
+
+  .control-phone-video video {
+    max-width: 280px;
+  }
+}

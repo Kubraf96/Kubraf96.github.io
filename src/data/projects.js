@@ -94,14 +94,36 @@ const projects = [
   },
   {
     slug: "surreal-collage",
-    subtitle: "Surreal Collage",
     title: "Surrealism collage",
-    year: "2025",
-    summary: "En collage med surrealistisk og experimental visuel stil.",
-    description:
-      "Dette projektkort viser et af dine collage-billeder fra productimages-mappen.",
+    year: "2026",
+    summary:
+      "En surrealistisk collage skabt i Adobe Photoshop med fokus på billedmanipulation, compositing og stemning.",
+      description: [
+        "I dette projekt skabte jeg en surrealistisk collage i Adobe Photoshop ved at kombinere forskellige billedelementer, som normalt ikke hører sammen. Jeg tog udgangspunkt i en nonne og det kosmiske univers og ønskede at skabe en mørk, mystisk og eksistentiel stemning. Gennem kombinationen af religiøse og kosmiske motiver ville jeg skabe en scene, der føles både fascinerende og en smule foruroligende.",
+
+        "Jeg arbejdede med billedmanipulation, fritlægning, lagmasker, compositing og farvejustering for at samle de forskellige elementer til én sammenhængende komposition. Den brændende planet, laserstrålerne, bjergene og planeterne blev valgt og placeret for at understøtte den dystre og surrealistiske atmosfære.",
+
+        "Gennem kontraster i farve, størrelse og placering skabte jeg et tydeligt visuelt hierarki, hvor nonnen og den brændende planet fungerer som de primære fokuspunkter. Projektet gav mig mulighed for at undersøge, hvordan forskellige visuelle elementer kan kombineres til at skabe en ny og urealistisk virkelighed og samtidig fremkalde en bestemt stemning og følelsesmæssig reaktion hos beskueren.",
+],
     tags: ["Collage", "Surrealism", "Adobe Photoshop", "Compositing"],
     image: surrealismImg,
+    process: [
+      {
+        title: "Idé & eksperimentering",
+        description:
+          "Jeg tog udgangspunkt i kombinationen af nonnen og det kosmiske univers og begyndte herfra at eksperimentere med forskellige billedelementer. Jeg søgte en mørk, mystisk og eksistentiel stemning, hvor religiøse og kosmiske motiver kunne skabe en følelse af noget ukendt og en smule foruroligende.",
+      },
+      {
+        title: "Compositing",
+        description:
+          "Jeg fritlagde og sammensatte de udvalgte elementer i Photoshop. Jeg arbejdede med skalering, placering og overlap for at skabe dybde og et tydeligt visuelt hierarki. Den brændende planet og laserstrålerne blev centrale elementer i den endelige komposition.",
+      },
+      {
+        title: "Farve og justering",
+        description:
+          "Til sidst arbejdede jeg med farvejustering, kontrast og lys for at få de forskellige billeder til at fungere som én samlet scene. Jeg justerede også elementernes størrelse og placering for at skabe balance og understøtte den mørke og dramatiske atmosfære.",
+      },
+    ],
     links: [
       {
         label: "Se billede",
@@ -110,5 +132,4 @@ const projects = [
     ],
   },
 ];
-
 export default projects;
