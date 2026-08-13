@@ -1,0 +1,334 @@
+/* ========================================
+   2GATHER
+   ======================================== */
+
+.two-gather-page {
+  width: min(100% - 2rem, 1200px);
+  margin: 0 auto;
+  padding: 8rem 0 6rem;
+}
+
+
+/* ========================================
+   BACK LINK
+   ======================================== */
+
+.two-gather-page .back-link {
+  display: inline-flex;
+  margin-bottom: 5rem;
+
+  color: #132FB4;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+/* ========================================
+   HERO
+   ======================================== */
+
+.two-gather-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(500px, 1.2fr);
+  gap: 5rem;
+  align-items: center;
+}
+
+
+/* ========================================
+   LEFT SIDE
+   ======================================== */
+
+.two-gather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+.two-gather-header {
+  max-width: 500px;
+  margin-bottom: 3rem;
+}
+
+.two-gather-subtitle {
+  margin: 0 0 1.25rem;
+
+  color: #111827;
+  font-size: 1rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.two-gather-header h1 {
+  margin: 0 0 1.5rem;
+
+  color: #132FB4;
+  font-family: "Bricolage", sans-serif;
+  font-size: clamp(4rem, 7vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.two-gather-summary {
+  max-width: 480px;
+  margin: 0;
+
+  color: #526173;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+
+/* ========================================
+   META
+   ======================================== */
+
+.two-gather-meta {
+  display: grid;
+  gap: 0.75rem;
+
+  margin-bottom: 2rem;
+}
+
+.two-gather-meta > div {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.two-gather-meta p {
+  margin: 0;
+}
+
+.two-gather-meta .detail-label {
+  color: #111827;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   TAGS
+   ======================================== */
+
+.two-gather-page .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.two-gather-page .tag-list li {
+  padding: 0.45rem 0.8rem;
+
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+
+  background: #ffffff;
+  color: #475569;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   HERO IMAGE
+   ======================================== */
+
+.two-gather-hero-image {
+  width: 100%;
+}
+
+.two-gather-hero-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+}
+/* ========================================
+   PRODUKTET I PRAKSIS
+   ======================================== */
+
+.two-gather-product {
+  margin-top: 8rem;
+  padding: 4rem 0 7rem;
+}
+
+
+/* INTRO */
+
+.two-gather-product-intro {
+  max-width: 500px;
+  margin-bottom: 4rem;
+}
+
+.two-gather-product-label {
+  margin: 0 0 0.75rem;
+
+  color: #132FB4;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.two-gather-product-intro h2 {
+  margin: 0 0 1rem;
+
+  color: #111827;
+  font-family: "Bricolage", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+.two-gather-product-intro p:last-child {
+  margin: 0;
+
+  color: #526173;
+  line-height: 1.6;
+}
+
+
+/* ========================================
+   CAROUSEL
+   ======================================== */
+
+.two-gather-product-showcase {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 80px minmax(0, 720px) 80px;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+
+  width: 100%;
+}
+
+
+/* IMAGE */
+
+.two-gather-product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 650px;
+}
+
+.two-gather-product-image img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  height: 620px;
+
+  object-fit: contain;
+}
+
+
+/* ========================================
+   PIL
+   ======================================== */
+
+.two-gather-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 4rem;
+  height: 4rem;
+
+  padding: 0;
+
+  border: 1px solid #ded6ca;
+  border-radius: 50%;
+
+  background: #fffaf3;
+  color: #111827;
+
+  font-size: 1.4rem;
+
+  cursor: pointer;
+}
+
+.two-gather-arrow:hover {
+  background: #ffffff;
+}
+
+
+/* ========================================
+   COUNTER
+   ======================================== */
+
+.two-gather-product-counter {
+  margin-top: 1.5rem;
+
+  color: #111827;
+
+  text-align: center;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   TITEL UNDER BILLEDET
+   ======================================== */
+
+.two-gather-product-title {
+  margin: 0.5rem 0 0;
+
+  color: #132FB4;
+
+  text-align: center;
+
+  font-family: "Bricolage", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   MOBIL
+   ======================================== */
+
+@media (max-width: 800px) {
+
+  .two-gather-product {
+    margin-top: 6rem;
+  }
+
+  .two-gather-product-showcase {
+    grid-template-columns: 50px minmax(0, 1fr) 50px;
+    gap: 0.75rem;
+  }
+
+  .two-gather-product-image {
+    min-height: 500px;
+  }
+
+  .two-gather-product-image img {
+    height: 500px;
+    max-width: 100%;
+  }
+
+  .two-gather-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+
+}

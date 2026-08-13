@@ -2,7 +2,7 @@ import controllogoImg from "../assets/productimages/control_logo.svg";
 import controlImg from "../assets/productimages/Control.png";
 import lastOfUsImg from "../assets/productimages/LastOfUs_poster_preview.jpg";
 import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
-import twoGatherLogo from "../assets/productimages/2gather/2gather_logo.svg";
+import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
 
 const projects = [
   {
@@ -108,7 +108,7 @@ const projects = [
     description:
       "2GATHER er en event-app med chat, invitationer og bekræftelse af deltagelse. Dette er et eksempelprojekt med logo-thumbnail.",
     tags: ["React", "Events", "Chat"],
-    image: twoGatherLogo,
+    image: twogatherhero,
     links: [
       {
         label: "Se projekt",
