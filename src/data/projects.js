@@ -79,7 +79,7 @@ const projects = [
           "Jeg benyttede double exposure-metoden og byggede scenen op med flere billedlag og integrerede mellemgrund og baggrund i kompositionen.",
       },
       {
-        title: "Farve, lys og finpudsning",
+        title: "Farve og lys",
         description:
           "Jeg arbejdede løbende med pensler, justeringlag, lys, farver og kontrast for at skabe sammenhæng mellem elementerne og fastholde Ellie som det visuelle fokus.",
       },
@@ -93,7 +93,8 @@ const projects = [
     ],
   },
   {
-    slug: "surrealism",
+    slug: "surreal-collage",
+    subtitle: "Surreal Collage",
     title: "Surrealism collage",
     year: "2025",
     summary: "En collage med surrealistisk og experimental visuel stil.",

@@ -1,0 +1,330 @@
+.surreal-collage-page {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  padding: 8rem 0 6rem;
+}
+
+/* ========================================
+   BACK LINK
+   ======================================== */
+
+.surreal-collage-page .back-link {
+  display: inline-flex;
+  margin-bottom: 3rem;
+
+  color: #D3235A;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+/* ========================================
+   HERO
+   ======================================== */
+
+.surreal-collage-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 520px);
+  gap: 4rem;
+  align-items: start;
+}
+
+
+/* ========================================
+   LEFT SIDE
+   ======================================== */
+
+.surreal-collage-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+
+.surreal-collage-header {
+  margin-bottom: 3rem;
+}
+
+.surreal-collage-subtitle {
+  margin: 0 0 1.25rem;
+
+  color: #526173;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-family: "Bricolage", sans-serif;
+}
+
+.surreal-collage-header h1 {
+  max-width: 650px;
+  margin: 0;
+
+  color: #132FB4;
+  font-size: clamp(4rem, 7vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-family: "Bricolage", sans-serif;
+}
+
+
+/* ========================================
+   DESCRIPTION
+   ======================================== */
+
+.surreal-collage-description {
+  max-width: 620px;
+  margin-bottom: 2.5rem;
+}
+
+.surreal-collage-description h2 {
+  margin-bottom: 1rem;
+
+  color: #111827;
+  font-size: 1.2rem;
+}
+
+.surreal-collage-description p {
+  margin: 0 0 1.75rem;
+
+  color: #526173;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.surreal-collage-description p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ========================================
+   META
+   ======================================== */
+
+.surreal-collage-meta {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.surreal-collage-meta > div {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.surreal-collage-meta p {
+  margin: 0;
+}
+
+.surreal-collage-meta .detail-label {
+  color: #111827;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: sans-serif;
+}
+
+.surreal-collage-meta > div > p:last-child {
+  color: #111827;
+  font-size: 1rem;
+}
+
+
+/* ========================================
+   TAGS
+   ======================================== */
+
+.surreal-collage-page .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  padding: 0;
+  margin: 0 0 2rem;
+
+  list-style: none;
+}
+
+.surreal-collage-page .tag-list li {
+  padding: 0.45rem 0.8rem;
+
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+
+  background: #ffffff;
+  color: #475569;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* ========================================
+   POSTER
+   ======================================== */
+
+.surreal-collage-poster {
+  position: sticky;
+  top: 7rem;
+
+  overflow: hidden;
+
+  border-radius: 0;
+
+  background: #f7f4ef;
+}
+
+.surreal-collage-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* ========================================
+   PROCESS
+   ======================================== */
+
+.surreal-collage-process {
+  margin-top: 7rem;
+}
+
+.surreal-collage-process .section-heading {
+  margin-bottom: 2rem;
+}
+
+.surreal-collage-process .section-heading h2 {
+  margin: 0;
+
+  color: #111827;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+
+/* ========================================
+   PROCESS GRID
+   ======================================== */
+
+.surreal-collage-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+
+/* ========================================
+   PROCESS CARDS
+   ======================================== */
+
+.surreal-collage-process-card {
+  min-height: 300px;
+  padding: 1.5rem;
+
+  border: 1px solid #e5ddd2;
+  border-radius: 1.25rem;
+
+  background: #fffaf3;
+}
+
+.surreal-collage-process-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+
+  border-radius: 50%;
+
+  background: #132FB4;
+  color: #ffffff;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.surreal-collage-process-card h3 {
+  margin: 0 0 1rem;
+
+  color: #111827;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.surreal-collage-process-card p {
+  margin: 0;
+
+  color: #526173;
+  line-height: 1.7;
+}
+
+
+/* ========================================
+   PROCESS IMAGES
+   ======================================== */
+
+.surreal-collage-process-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.25rem;
+
+  object-fit: contain;
+}
+
+
+/* ========================================
+   TABLET
+   ======================================== */
+
+@media (max-width: 1000px) {
+  .surreal-collage-hero {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .surreal-collage-poster {
+    position: static;
+    max-width: 600px;
+  }
+
+  .surreal-collage-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 600px) {
+  .surreal-collage-page {
+    padding-top: 6rem;
+  }
+
+  .surreal-collage-header h1 {
+    font-size: clamp(3.2rem, 16vw, 5rem);
+  }
+
+  .surreal-collage-meta {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .surreal-collage-process {
+    margin-top: 5rem;
+  }
+
+  .surreal-collage-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .surreal-collage-process-card {
+    min-height: auto;
+  }
+}
