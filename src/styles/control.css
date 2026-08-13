@@ -18,11 +18,11 @@
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
-
+font-family: "Bricolage", sans-serif;
   margin-bottom: 5rem;
 
-  color: #132fb4;
-  font-weight: 700;
+  color: #ec0bb1;
+  font-weight: 500;
   text-decoration: none;
 }
 
