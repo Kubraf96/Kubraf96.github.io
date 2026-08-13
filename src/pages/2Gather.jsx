@@ -90,7 +90,8 @@ function TwoGather() {
 
       <article className="two-gather-page">
         <Link className="back-link" to="/projects">
-          Tilbage til projekter
+          <img className="project-back-arrow" src={arrowIcon} alt="" />
+          <span>Tilbage til projekter</span>
         </Link>
 
         {/* HERO */}
