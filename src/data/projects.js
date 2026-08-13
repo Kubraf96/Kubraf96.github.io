@@ -102,12 +102,14 @@ const projects = [
   },
   {
     slug: "2gather-event-app",
-    title: "2GATHER event app",
+    title: "2GATHER",
     year: "2026",
-    summary: "Event-app til at samle venner og organisere arrangementer.",
+    summary:
+      "2GATHER er en social platform, der bringer mennesker sammen gennem lokale aktiviteter og fælles interesser.",
     description:
-      "2GATHER er en event-app med chat, invitationer og bekræftelse af deltagelse. Dette er et eksempelprojekt med logo-thumbnail.",
+      "2GATHER er en social eventplatform, der gør det lettere at finde fællesskaber gennem lokale aktiviteter og fælles interesser. Brugerne kan udforske, oprette og deltage i events samt skabe kontakt til andre deltagere.",
     tags: ["React", "Events", "Chat"],
+    tools: ["Figma", "Jitter", "React", "JavaScript"],
     image: twogatherhero,
     links: [
       {

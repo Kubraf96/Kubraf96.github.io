@@ -157,21 +157,25 @@
 
   object-fit: contain;
 }
+
+
 /* ========================================
    PRODUKTET I PRAKSIS
    ======================================== */
 
 .two-gather-product {
   margin-top: 8rem;
-  padding: 4rem 0 7rem;
+  padding: 0 0 7rem;
 }
 
 
-/* INTRO */
+/* ========================================
+   INTRO
+   ======================================== */
 
 .two-gather-product-intro {
   max-width: 500px;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .two-gather-product-label {
@@ -185,7 +189,7 @@
 .two-gather-product-intro h2 {
   margin: 0 0 1rem;
 
-  color: #111827;
+  color: #252525;
   font-family: "Bricolage", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
@@ -204,36 +208,40 @@
    ======================================== */
 
 .two-gather-product-showcase {
-  position: relative;
-
   display: grid;
-  grid-template-columns: 80px minmax(0, 720px) 80px;
-
+  grid-template-columns: 80px minmax(0, 1fr) 80px;
   align-items: center;
-  justify-content: center;
-
-  gap: 2rem;
 
   width: 100%;
+  max-width: 1100px;
+  min-height: 620px;
+
+  margin: 0 auto;
+
+  gap: 2rem;
 }
 
 
-/* IMAGE */
+/* ========================================
+   PRODUCT IMAGE
+   ======================================== */
 
 .two-gather-product-image {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  min-height: 650px;
+  width: 100%;
+  height: 620px;
 }
 
 .two-gather-product-image img {
   display: block;
 
   width: auto;
+  height: 100%;
+  max-height: 620px;
   max-width: 100%;
-  height: 620px;
 
   object-fit: contain;
 }
@@ -248,24 +256,37 @@
   align-items: center;
   justify-content: center;
 
-  width: 4rem;
-  height: 4rem;
+  width: auto;
+  height: auto;
 
   padding: 0;
+  margin: 0;
 
-  border: 1px solid #ded6ca;
-  border-radius: 50%;
+  border: none;
+  outline: none;
 
-  background: #fffaf3;
-  color: #111827;
-
-  font-size: 1.4rem;
+  background: transparent;
 
   cursor: pointer;
 }
 
+.two-gather-arrow img {
+  display: block;
+
+  width: 3rem;
+  height: 3rem;
+}
+
+.two-gather-arrow-right img {
+  transform: rotate(180deg);
+}
+
 .two-gather-arrow:hover {
-  background: #ffffff;
+  background: transparent;
+}
+
+.two-gather-arrow:focus {
+  outline: none;
 }
 
 
@@ -303,10 +324,37 @@
 
 
 /* ========================================
+   TABLET
+   ======================================== */
+
+@media (max-width: 1000px) {
+
+  .two-gather-hero {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .two-gather-hero-image {
+    max-width: 700px;
+  }
+
+  .two-gather-product-showcase {
+    grid-template-columns: 60px minmax(0, 1fr) 60px;
+    gap: 1rem;
+  }
+
+}
+
+
+/* ========================================
    MOBIL
    ======================================== */
 
 @media (max-width: 800px) {
+
+  .two-gather-page {
+    padding-top: 6rem;
+  }
 
   .two-gather-product {
     margin-top: 6rem;
@@ -315,10 +363,12 @@
   .two-gather-product-showcase {
     grid-template-columns: 50px minmax(0, 1fr) 50px;
     gap: 0.75rem;
+
+    min-height: 500px;
   }
 
   .two-gather-product-image {
-    min-height: 500px;
+    height: 500px;
   }
 
   .two-gather-product-image img {
@@ -326,9 +376,36 @@
     max-width: 100%;
   }
 
-  .two-gather-arrow {
-    width: 3rem;
-    height: 3rem;
+  .two-gather-arrow img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+}
+
+
+/* ========================================
+   SMALL MOBILE
+   ======================================== */
+
+@media (max-width: 500px) {
+
+  .two-gather-product-showcase {
+    grid-template-columns: 40px minmax(0, 1fr) 40px;
+    gap: 0.5rem;
+  }
+
+  .two-gather-product-image {
+    height: 430px;
+  }
+
+  .two-gather-product-image img {
+    height: 430px;
+  }
+
+  .two-gather-arrow img {
+    width: 2rem;
+    height: 2rem;
   }
 
 }
