@@ -33,9 +33,7 @@ function SurrealCollage() {
             <div className="surreal-collage-description">
               <h2>Om projektet</h2>
 
-              {project.description.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
+              <p>{project.description}</p>
             </div>
 
             <div className="surreal-collage-meta">
