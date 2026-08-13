@@ -12,11 +12,11 @@
   display: inline-flex;
   margin-bottom: 3rem;
 
-  color: #D3235A;
+  color: #ec0bb1;
   font-weight: 800;
   text-decoration: none;
+  
 }
-
 
 /* ========================================
    HERO
@@ -199,8 +199,9 @@
 .surreal-collage-process .section-heading h2 {
   margin: 0;
 
-  color: #111827;
+  color: #132FB4;
   font-size: clamp(2rem, 4vw, 3rem);
+  font-family: "Bricolage", sans-serif;
 }
 
 
