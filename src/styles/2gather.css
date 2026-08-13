@@ -19,7 +19,7 @@
   color: #ec0bb1;
   font-weight: 800;
   text-decoration: none;
-} 
+}
 
 /* ========================================
    HERO
@@ -182,7 +182,7 @@
 .two-gather-product-intro h2 {
   margin: 0 0 1rem;
 
-  color: #252525;
+  color: #132fb4;
   font-family: "Bricolage", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
