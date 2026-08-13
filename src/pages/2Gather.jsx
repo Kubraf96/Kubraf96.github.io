@@ -138,7 +138,7 @@ function TwoGather() {
           <div className="two-gather-product-intro">
             <h2 className="two-gather-product-label">Produktet i praksis</h2>
 
-            <p>Et udklip af de vigtigste elementer fra 2Gather.</p>
+            <p>Et udklip af de vigtigste elementer fra 2GATHER.</p>
           </div>
 
           <div className="two-gather-product-showcase">
