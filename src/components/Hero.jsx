@@ -18,9 +18,8 @@ function Hero() {
           <p className="hero-intro">Hej, jeg hedder Kübra.</p>
 
           <p className="hero-description">
-            Jeg elsker at udforske idéer gennem farver, typografi, og små
-            visuelle detaljer. For mig er det netop de små elementer, der skaber
-            en stærk identitet og gør et design levende.
+            Jeg arbejder med visuelle koncepter, digitalt design og kreative idéer. Jeg elsker at udforske idéer gennem farver, typografi, billeder og de små
+            små detaljer, der får et design til at føles som mere end bare dets enkelte elementer.
           </p>
 
           <Link className="search-box" to="/projects">
