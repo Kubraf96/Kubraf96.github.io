@@ -1,29 +1,31 @@
 import controllogoImg from "../assets/productimages/control_logo.svg";
 import controlImg from "../assets/productimages/Control.png";
-import lastOfUsImg from "../assets/productimages/LastOfUs_poster_preview.jpg";
+import lastOfUsImg from "../assets/images/last_of_us/LOU_step_4.png";
 import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
 import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
 
 const projects = [
   {
-    slug: "Control",
-    title: "Webshop",
+    slug: "2gather-event-app",
+    title: "2GATHER",
     year: "2026",
-    summary: "En personlig portfolio bygget med React, Vite og GitHub Pages.",
+    summary:
+      "2GATHER er en social platform, der bringer mennesker sammen gennem lokale aktiviteter og fælles interesser.",
     description:
-      "Portfolioen viser udvalgte projekter og fungerer som et udgangspunkt for at arbejde med komponenter, routing, styling og deployment.",
-    tags: ["React", "Vite", "GitHub Pages"],
-    image: controllogoImg,
+      "2GATHER er en social eventplatform, der gør det lettere at finde fællesskaber gennem lokale aktiviteter og fælles interesser. Brugerne kan udforske, oprette og deltage i events samt skabe kontakt til andre deltagere.",
+    tags: ["React", "Figma", "JavaScript", "Jitter"],
+    tools: ["Figma", "Jitter", "React", "JavaScript"],
+    image: twogatherhero,
     links: [
       {
-        label: "Live site",
-        href: "https://username.github.io",
+        label: "Se projekt",
+        href: "#",
       },
     ],
   },
   {
-    slug: "case-study",
-    title: "Case study",
+    slug: "control",
+    title: "Control",
     year: "2026",
     summary:
       "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
@@ -53,7 +55,13 @@ const projects = [
       "Jeg er især interesseret i, hvordan man kan fortælle noget om en karakter og en historie uden at bruge ord.",
     ],
     tools: ["Adobe Photoshop"],
-    tags: ["Double Exposure", "Visuel hierarki", "Storytelling", "Compositing"],
+    tags: [
+      "Double Exposure",
+      "Visuel hierarki",
+      "Storytelling",
+      "Compositing",
+      "Adobe Photoshop",
+    ],
     process: [
       {
         title: "Idé og research",
@@ -88,53 +96,15 @@ const projects = [
     slug: "surreal-collage",
     subtitle: "Surreal Collage",
     title: "Surrealism collage",
-    year: "2026",
-    summary:
-      "En surrealistisk Photoshop-collage, hvor religiøse og kosmiske elementer kombineres gennem compositing for at skabe en dramatisk og urealistisk scene.",
-    description: [
-  "I dette projekt skabte jeg en surrealistisk collage i Adobe Photoshop ved at kombinere forskellige billedelementer, som normalt ikke hører sammen.","Jeg tog udgangspunkt i en nonne og det kosmiske univers og ønskede at skabe en mørk, mystisk og eksistentiel stemning.", "Gennem kombinationen af religiøse og kosmiske motiver ville jeg skabe en scene, der føles både fascinerende og en smule foruroligende.", "Jeg arbejdede med billedmanipulation, fritlægning, lagmasker, compositing og farvejustering for at samle de forskellige elementer til én sammenhængende komposition. Den brændende planet, laserstrålerne, bjergene og planeterne blev valgt og placeret for at understøtte den dystre og surrealistiske atmosfære.", "Gennem kontraster i farve, størrelse og placering skabte jeg et tydeligt visuelt hierarki, hvor nonnen og den brændende planet fungerer som de primære fokuspunkter.", "Projektet gav mig mulighed for at undersøge, hvordan forskellige visuelle elementer kan kombineres til at skabe en ny og urealistisk virkelighed og samtidig fremkalde en bestemt stemning og følelsesmæssig reaktion hos beskueren.",
-    ],
-    tools: ["Adobe Photoshop"],
-    tags: ["Collage", "Surrealism", "Image manipulation", "Compositing"],
-    process: [
-      {
-        title: "Idé og eksperimentering",
-        description:
-          "Jeg tog udgangspunkt i kombinationen af nonnen og det kosmiske univers, som jeg fritlagde fra deres oprindelige billeder og fjernede øjnene på nonnen.",
-      },
-      {
-        title: "Compositing",
-        description:
-          "Jeg fritlagde og sammensatte de udvalgte elementer i Photoshop. Jeg arbejdede med skalering, placering og overlap for at skabe dybde og et tydeligt visuelt hierarki. Den brændende planet og laserstrålerne blev centrale elementer i den endelige komposition.",
-      },
-      {
-        title: "Farve og finpudsning",
-        description:
-          "Til sidst arbejdede jeg med farvejustering, kontrast og lys for at få de forskellige billeder til at fungere som én samlet scene.",
-      },
-    ],
+    year: "2025",
+    summary: "En collage med surrealistisk og experimental visuel stil.",
+    description:
+      "Dette projektkort viser et af dine collage-billeder fra productimages-mappen.",
+    tags: ["Collage", "Surrealism", "Adobe Photoshop", "Compositing"],
     image: surrealismImg,
     links: [
       {
         label: "Se billede",
-        href: "#",
-      },
-    ],
-  },
-  {
-    slug: "2gather-event-app",
-    title: "2GATHER",
-    year: "2026",
-    summary:
-      "2GATHER er en social platform, der bringer mennesker sammen gennem lokale aktiviteter og fælles interesser.",
-    description:
-      "2GATHER er en social eventplatform, der gør det lettere at finde fællesskaber gennem lokale aktiviteter og fælles interesser. Brugerne kan udforske, oprette og deltage i events samt skabe kontakt til andre deltagere.",
-    tags: ["React", "Events", "Chat"],
-    tools: ["Figma", "Jitter", "React", "JavaScript"],
-    image: twogatherhero,
-    links: [
-      {
-        label: "Se projekt",
         href: "#",
       },
     ],

@@ -6,6 +6,7 @@ import LOUstep1 from "../assets/images/last_of_us/LOU_step_1.png";
 import LOUstep2 from "../assets/images/last_of_us/LOU_step_2.png";
 import LOUstep3 from "../assets/images/last_of_us/LOU_step_3.png";
 import LOUstep4 from "../assets/images/last_of_us/LOU_step_4.png";
+import arrowIcon from "../assets/icons/arrow.svg";
 
 function LastOfUs() {
   const project = projects.find((item) => item.slug === "last-of-us");
@@ -20,14 +21,14 @@ function LastOfUs() {
 
       <article className="last-of-us-page">
         <Link className="back-link" to="/projects">
-          Tilbage til projekter
+          <img className="project-back-arrow" src={arrowIcon} alt="" />
+          <span>Tilbage til projekter</span>
         </Link>
 
         {/* HERO */}
         <section className="last-of-us-hero">
           <div className="last-of-us-info">
             <div className="last-of-us-header">
-
               <p className="last-of-us-subtitle">{project.subtitle}</p>
 
               <h1>{project.title}</h1>

@@ -1,3 +1,4 @@
+import ScrollToTop from "./components/ScrollToTop";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -12,6 +13,7 @@ import TwoGather from "./pages/2Gather";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />

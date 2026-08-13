@@ -1,53 +1,64 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import projects from "../data/projects";
+import arrowIcon from "../assets/icons/arrow.svg";
 
 function ProjectsPage() {
   return (
     <>
       <Navbar />
-      <div className="page">
-        <section className="section intro">
-          <p className="eyebrow">Projekter</p>
+
+      <main className="projects-page">
+        <section className="projects-intro">
           <h1>Mine projekter</h1>
-          <p>
-            Udskift eksemplerne med dine egne projekter. Brug korte
-            beskrivelser, tydelige billeder og links til live versioner eller
-            GitHub repos.
-          </p>
         </section>
 
-        <section className="project-grid" aria-label="Projektliste">
-          {projects.map((project) => (
-            <article className="project-card" key={project.slug}>
-              <Link to={`/projects/${project.slug}`} className="image-link">
+        <section className="projects-list" aria-label="Mine projekter">
+          {projects.map((project, index) => (
+            <article className="projects-card" key={project.slug}>
+              <Link
+                to={`/projects/${project.slug}`}
+                className="projects-card-image"
+              >
                 <img src={project.image} alt={`Preview af ${project.title}`} />
               </Link>
-              <div className="project-card-content">
-                <div>
-                  <p className="eyebrow">{project.year}</p>
+
+              <div className="projects-card-content">
+                <div className="projects-card-top">
+                  <div className="projects-card-meta">
+                    <span>{String(index + 1).padStart(2, "0")}</span>
+
+                    <span>{project.year}</span>
+                  </div>
+
                   <h2>{project.title}</h2>
+
                   <p>{project.summary}</p>
                 </div>
-                <div className="project-card-footer">
-                  <ul className="tag-list">
+
+                <div className="projects-card-bottom">
+                  <ul className="projects-tag-list">
                     {project.tags.map((tag) => (
                       <li key={tag}>{tag}</li>
                     ))}
                   </ul>
+
                   <Link
                     to={`/projects/${project.slug}`}
-                    className="project-card-link"
+                    className="projects-card-link"
                   >
-                    <span className="project-card-link-icon">➡️</span>
                     <span>Læs mere om projektet</span>
+
+                    <span className="projects-card-arrow">
+                      <img src={arrowIcon} alt="" />
+                    </span>
                   </Link>
                 </div>
               </div>
             </article>
           ))}
         </section>
-      </div>
+      </main>
     </>
   );
 }

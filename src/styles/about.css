@@ -16,11 +16,11 @@
 }
 
 .about-title {
-  font-family: "Genty", cursive;
+  font-family: "bricolage", sans-serif;
   font-size: h1;
   color: #132fb4;
   margin-bottom: 0.5rem;
-  margin-top: -2rem;
+  margin-top: -1.5rem;
 }
 
 .about-image {
