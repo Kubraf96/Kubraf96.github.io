@@ -75,12 +75,11 @@
   margin: 0;
 
   color: #132FB4;
+  font-family: "Bricolage", sans-serif;
   font-size: clamp(4rem, 7vw, 6.5rem);
   line-height: 0.9;
   letter-spacing: -0.04em;
-  font-family: "Bricolage", sans-serif;
 }
-
 
 /* ========================================
    DESCRIPTION

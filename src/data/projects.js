@@ -96,7 +96,7 @@ const projects = [
     slug: "surreal-collage",
     subtitle: "Surreal Collage",
     title: "Surrealism collage",
-    year: "2025",
+    year: "2026",
     summary: "En collage med surrealistisk og experimental visuel stil.",
     description:
       "Dette projektkort viser et af dine collage-billeder fra productimages-mappen.",
