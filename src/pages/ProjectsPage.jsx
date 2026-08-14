@@ -10,7 +10,7 @@ function ProjectsPage() {
 
       <main className="projects-page">
         <section className="projects-intro">
-          <h1>Mine projekter</h1>
+          <h1>Mine projekter.</h1>
         </section>
 
         <section className="projects-list" aria-label="Mine projekter">

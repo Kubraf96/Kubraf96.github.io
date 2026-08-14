@@ -1,36 +1,65 @@
 import Navbar from "../components/Navbar";
+import smiley from "../assets/icons/smiley_icon.svg";
+import arrow from "../assets/icons/arrow.svg";
 
 function ContactPage() {
   return (
     <>
       <Navbar />
-      <div className="page narrow">
-        <p className="eyebrow">Kontakt</p>
-        <h1>Lad os tale sammen.</h1>
-        <p className="lead">
-          Tilpas links og mailadresse, så siden peger på dine egne profiler.
-        </p>
 
-        <ul className="contact-list">
-          <li>
-            <a href="mailto:dinmail@example.com">dinmail@example.com</a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/username"
-              rel="noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com" rel="noreferrer" target="_blank">
-              LinkedIn
-            </a>
-          </li>
-        </ul>
-      </div>
+      <main className="contact-page">
+        <section className="contact-hero">
+          <div className="contact-intro">
+            <h1>
+              Lad os skabe noget sammen.
+              <img className="smiley" src={smiley} alt="" />
+            </h1>
+
+            <p className="contact-description">
+              Har du et projekt, en idé eller bare lyst til at sige hej? Jeg vil
+              gerne høre fra dig!
+            </p>
+          </div>
+
+          <div className="contact-details">
+            <div className="contact-block">
+              <p className="contact-label">EMAIL</p>
+
+              <a
+                className="contact-main-link"
+                href="mailto:eaa25kufi@students.eaaa.dk"
+              >
+                <span>Min mail</span>
+                <img src={arrow} alt="" />
+              </a>
+            </div>
+
+            <div className="contact-block">
+              <p className="contact-label">FIND MIG</p>
+
+              <div className="contact-socials">
+                <a
+                  href="https://github.com/Kubraf96"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                  <img src={arrow} alt="" />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/k%C3%BCbra-f-831b592bb/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                  <img src={arrow} alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   );
 }

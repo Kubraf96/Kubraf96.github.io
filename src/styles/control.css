@@ -2,13 +2,11 @@
    CONTROL PAGE
    ======================================== */
 
-
 .control-page {
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
   padding: 8rem 0 6rem;
 }
-
 
 /* ========================================
    BACK LINK
@@ -18,7 +16,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
-font-family: "Bricolage", sans-serif;
+  font-family: "Bricolage", sans-serif;
   margin-bottom: 5rem;
 
   color: #ec0bb1;
@@ -32,7 +30,6 @@ font-family: "Bricolage", sans-serif;
   height: 2.25rem;
 }
 
-
 /* ========================================
    HERO
    ======================================== */
@@ -43,7 +40,7 @@ font-family: "Bricolage", sans-serif;
   gap: 4rem;
   align-items: start;
 
-  margin-bottom: 10rem;
+  margin-bottom: 0rem;
 }
 
 .control-hero-text {
@@ -75,7 +72,7 @@ font-family: "Bricolage", sans-serif;
   max-width: 500px;
   margin: 0;
 
-  color: #526173;
+  color: #252525;
   font-size: 1.1rem;
   line-height: 1.7;
 }
@@ -88,7 +85,6 @@ font-family: "Bricolage", sans-serif;
 
   object-fit: cover;
 }
-
 
 /* ========================================
    TAGS
@@ -112,12 +108,11 @@ font-family: "Bricolage", sans-serif;
   border-radius: 999px;
 
   background: #ffffff;
-  color: #475569;
+  color: #252525;
 
   font-size: 0.85rem;
   font-weight: 700;
 }
-
 
 /* ========================================
    COMMUNITY
@@ -164,7 +159,6 @@ font-family: "Bricolage", sans-serif;
   font-size: 1.05rem;
   line-height: 1.7;
 }
-
 
 /* ========================================
    INSTAGRAM CONTENT
@@ -218,7 +212,6 @@ font-family: "Bricolage", sans-serif;
   transform: translateX(4rem);
 }
 
-
 /* ========================================
    LESS STOCK
    ======================================== */
@@ -238,7 +231,7 @@ font-family: "Bricolage", sans-serif;
 
 .control-phone-video video {
   display: block;
-transform: translateX(-7rem);
+  transform: translateX(-7rem);
 
   width: 100%;
   max-width: 320px;
@@ -248,7 +241,6 @@ transform: translateX(-7rem);
   border-radius: 1rem;
   margin-bottom: -13rem;
 }
-
 
 /* ========================================
    BLOC PARTY
@@ -274,7 +266,6 @@ transform: translateX(-7rem);
   width: 100%;
   height: auto;
 }
-
 
 /* ========================================
    THE CONTROL LOOK
@@ -303,7 +294,6 @@ transform: translateX(-7rem);
   margin: 0 auto;
 }
 
-
 /* ========================================
    END
    ======================================== */
@@ -331,13 +321,11 @@ transform: translateX(-7rem);
   font-size: clamp(2.5rem, 5vw, 4.5rem);
 }
 
-
 /* ========================================
    MOBILE
    ======================================== */
 
 @media (max-width: 800px) {
-
   .control-page {
     padding-top: 7rem;
   }

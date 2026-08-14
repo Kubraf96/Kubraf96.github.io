@@ -33,7 +33,6 @@ function SurrealCollage() {
             </div>
 
             <div className="surreal-collage-description">
-              <h2>Om projektet</h2>
 
               {Array.isArray(project.description) ? (
                 project.description.map((paragraph, index) => (

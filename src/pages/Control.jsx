@@ -31,7 +31,7 @@ function Control() {
             <h1>Control</h1>
 
             <p className="control-hero-intro">
-              Control er en fiktivt tøj-retailer, der også har egen kollektion og som er udviklet med fokus på fashion, community
+              Control er en fiktiv tøj-retailer, der også har egen kollektion og som er udviklet med fokus på fashion, community
               og visuel identitet. Jeg har arbejdet med at omsætte brandets
               univers til social media content og kampagner.
             </p>
