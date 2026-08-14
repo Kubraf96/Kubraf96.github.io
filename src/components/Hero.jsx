@@ -18,8 +18,8 @@ function Hero() {
           <p className="hero-intro">Hej, jeg hedder Kübra.</p>
 
           <p className="hero-description">
-            Jeg arbejder med visuelle koncepter, digitalt design og kreative idéer. Jeg elsker at udforske idéer gennem farver, typografi, billeder og de små
-            små detaljer, der får et design til at føles som mere end bare dets enkelte elementer.
+            Jeg arbejder med visuelle koncepter, digitalt design og kreative
+            idéer.
           </p>
 
           <Link className="search-box" to="/projects">
