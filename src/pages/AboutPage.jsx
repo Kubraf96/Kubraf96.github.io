@@ -34,10 +34,10 @@ function AboutPage() {
             </p>
 
             <p>
-              Lige nu udvikler jeg især mine kompetencer i Figma og Adobe Creative Cloud,
-              branding og visuel identitet, og jeg søger en praktikplads, hvor
-              jeg kan udvikle mig og bidrage til meningsfulde digitale
-              oplevelser.
+              Lige nu udvikler jeg især mine kompetencer i Figma og Adobe
+              Creative Cloud, branding og visuel identitet, og jeg søger en
+              praktikplads, hvor jeg kan udvikle mig og bidrage til meningsfulde
+              digitale oplevelser.
             </p>
           </div>
         </div>
