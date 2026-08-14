@@ -28,10 +28,10 @@ const projects = [
     title: "Control",
     year: "2026",
     summary:
-      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
+      "Et social media-projekt for det fiktive tøj retailer mærke Control med fokus på community, street culture og visuel identitet.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte.",
-    tags: ["Design", "Frontend", "Proces"],
+    tags: ["Social Media", "Figma", "Adobe Express", "Branding", "Campaigns", "Visual Identity"], 
     image: controlImg,
     links: [
       {
@@ -98,13 +98,13 @@ const projects = [
     year: "2026",
     summary:
       "En surrealistisk collage skabt i Adobe Photoshop med fokus på billedmanipulation, compositing og stemning.",
-      description: [
-        "I dette projekt skabte jeg en surrealistisk collage i Adobe Photoshop ved at kombinere forskellige billedelementer, som normalt ikke hører sammen. Jeg tog udgangspunkt i en nonne og det kosmiske univers og ønskede at skabe en mørk, mystisk og eksistentiel stemning. Gennem kombinationen af religiøse og kosmiske motiver ville jeg skabe en scene, der føles både fascinerende og en smule foruroligende.",
+    description: [
+      "I dette projekt skabte jeg en surrealistisk collage i Adobe Photoshop ved at kombinere forskellige billedelementer, som normalt ikke hører sammen. Jeg tog udgangspunkt i en nonne og det kosmiske univers og ønskede at skabe en mørk, mystisk og eksistentiel stemning. Gennem kombinationen af religiøse og kosmiske motiver ville jeg skabe en scene, der føles både fascinerende og en smule foruroligende.",
 
-        "Jeg arbejdede med billedmanipulation, fritlægning, lagmasker, compositing og farvejustering for at samle de forskellige elementer til én sammenhængende komposition. Den brændende planet, laserstrålerne, bjergene og planeterne blev valgt og placeret for at understøtte den dystre og surrealistiske atmosfære.",
+      "Jeg arbejdede med billedmanipulation, fritlægning, lagmasker, compositing og farvejustering for at samle de forskellige elementer til én sammenhængende komposition. Den brændende planet, laserstrålerne, bjergene og planeterne blev valgt og placeret for at understøtte den dystre og surrealistiske atmosfære.",
 
-        "Gennem kontraster i farve, størrelse og placering skabte jeg et tydeligt visuelt hierarki, hvor nonnen og den brændende planet fungerer som de primære fokuspunkter. Projektet gav mig mulighed for at undersøge, hvordan forskellige visuelle elementer kan kombineres til at skabe en ny og urealistisk virkelighed og samtidig fremkalde en bestemt stemning og følelsesmæssig reaktion hos beskueren.",
-],
+      "Gennem kontraster i farve, størrelse og placering skabte jeg et tydeligt visuelt hierarki, hvor nonnen og den brændende planet fungerer som de primære fokuspunkter. Projektet gav mig mulighed for at undersøge, hvordan forskellige visuelle elementer kan kombineres til at skabe en ny og urealistisk virkelighed og samtidig fremkalde en bestemt stemning og følelsesmæssig reaktion hos beskueren.",
+    ],
     tags: ["Collage", "Surrealism", "Adobe Photoshop", "Compositing"],
     image: surrealismImg,
     process: [
