@@ -4,6 +4,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Bricolage";
   src: url("./assets/fonts/BricolageGrotesque_36pt_Condensed-Light.ttf")
@@ -11,6 +12,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 :root {
   font-family:
     Inter,
@@ -20,10 +22,13 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
+
   color: #252525;
   background: #f7f4ef;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -78,6 +83,7 @@ textarea {
   margin: 0 auto;
   padding: 1.25rem 0;
 }
+
 .brand {
   color: #111827;
   font-weight: 800;
@@ -304,6 +310,7 @@ p {
   background: #d9d0c3;
   padding: 0;
   cursor: pointer;
+
   transition:
     transform 0.2s ease,
     background 0.2s ease;
@@ -388,6 +395,7 @@ p {
   color: #5b21b6;
   font-weight: 800;
 }
+
 
 /* ========================================
    PROJEKTER
@@ -651,6 +659,7 @@ p {
   transform: rotate(180deg);
 }
 
+
 /* ========================================
    TABLET
    ======================================== */
@@ -734,5 +743,262 @@ p {
   .hero-section {
     min-height: auto;
     padding-top: 2rem;
+  }
+}/* ========================================
+   CONTACT
+   ======================================== */
+
+.contact-page {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+
+  min-height: calc(100svh - 80px);
+
+  padding: 7rem 0 3rem;
+}
+
+
+/* ========================================
+   CONTACT HERO
+   ======================================== */
+
+.contact-hero {
+  display: grid;
+
+  grid-template-columns: 1.15fr 0.85fr;
+
+  gap: 8rem;
+
+  align-items: start;
+}
+
+/* ========================================
+   CONTACT INTRO
+   ======================================== */
+
+.contact-intro {
+  max-width: 720px;
+}
+
+.contact-intro h1 {
+  margin: 0;
+
+  color: #132fb4;
+
+  font-family: "Bricolage", sans-serif;
+
+  font-size: clamp(4rem, 7vw, 6.5rem);
+
+  font-weight: 300;
+
+  line-height: 0.88;
+
+  letter-spacing: -0.05em;
+}
+
+
+/* ========================================
+   SMILEY
+   ======================================== */
+
+.contact-intro .smiley {
+  position: relative;
+
+  display: inline-block;
+
+  width: 3.5rem;
+  height: 3.5rem;
+
+  margin-left: -3rem;
+
+  top: -4rem;
+
+  vertical-align: middle;
+}
+
+
+/* ========================================
+   CONTACT DESCRIPTION
+   ======================================== */
+
+.contact-description {
+  max-width: 600px;
+
+  margin: 0rem 0 0;
+
+  color: #252525;
+
+  font-size: 1.15rem;
+
+  line-height: 1.65;
+}
+
+
+/* ========================================
+   CONTACT DETAILS
+   ======================================== */
+
+.contact-details {
+  padding-top: 2rem;
+}
+
+.contact-block {
+  padding: 0 0 2.5rem;
+
+  margin-bottom: 2.5rem;
+
+  border-bottom: 1px solid #ded6ca;
+}
+
+.contact-label {
+  margin: 0 0 1rem;
+
+  color: #526173;
+
+  font-size: 0.8rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.25em;
+}
+
+/* ========================================
+   EMAIL
+   ======================================== */
+
+.contact-main-link {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  color: #ec0bb1;
+
+  font-size: 0.8rem;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+.contact-main-link:hover {
+  text-decoration: underline;
+}
+
+.contact-main-link img {
+  display: block;
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+  flex-shrink: 0;
+
+  object-fit: contain;
+
+  transform: rotate(180deg);
+}
+
+/* ========================================
+   SOCIAL LINKS
+   ======================================== */
+
+.contact-socials {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.8rem;
+}
+
+.contact-socials a {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  color: #ec0bb1;
+
+  font-size: 0.8rem;
+
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+.contact-socials a:hover {
+  text-decoration: underline;
+}
+
+.contact-socials a img {
+  display: block;
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+  flex-shrink: 0;
+
+  object-fit: contain;
+
+  transform: rotate(180deg);
+}
+/* ========================================
+   CONTACT TABLET
+   ======================================== */
+
+@media (max-width: 900px) {
+  .contact-hero {
+    grid-template-columns: 1fr;
+
+    gap: 4rem;
+  }
+
+  .contact-details {
+    padding-top: 0;
+
+    max-width: 600px;
+  }
+}
+
+
+/* ========================================
+   CONTACT MOBILE
+   ======================================== */
+
+@media (max-width: 600px) {
+  .contact-page {
+    padding-top: 7rem;
+  }
+
+  .contact-hero {
+    gap: 3rem;
+  }
+
+  .contact-intro h1 {
+    font-size: clamp(3.5rem, 15vw, 5rem);
+  }
+
+  .contact-intro .smiley {
+    width: 3rem;
+    height: 3rem;
+
+    margin-left: 0.35rem;
+
+    top: -0.3rem;
+  }
+
+  .contact-description {
+    margin-top: 2rem;
+
+    font-size: 1rem;
+  }
+
+  .contact-details {
+    padding-top: 0;
   }
 }

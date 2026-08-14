@@ -15,7 +15,6 @@
   color: #ec0bb1;
   font-weight: 800;
   text-decoration: none;
-  
 }
 
 /* ========================================
@@ -28,7 +27,6 @@
   gap: 4rem;
   align-items: start;
 }
-
 
 /* ========================================
    LEFT SIDE
@@ -59,13 +57,12 @@
   max-width: 650px;
   margin: 0;
 
-  color: #132FB4;
+  color: #132fb4;
   font-size: clamp(4rem, 7vw, 6.5rem);
   line-height: 0.9;
   letter-spacing: -0.04em;
   font-family: "Bricolage", sans-serif;
 }
-
 
 /* ========================================
    DESCRIPTION
@@ -86,7 +83,7 @@
 .surreal-collage-description p {
   margin: 0 0 1.75rem;
 
-  color: #526173;
+  color: #252525;
   font-size: 1.08rem;
   line-height: 1.7;
 }
@@ -94,7 +91,6 @@
 .surreal-collage-description p:last-child {
   margin-bottom: 0;
 }
-
 
 /* ========================================
    META
@@ -132,7 +128,6 @@
   font-size: 1rem;
 }
 
-
 /* ========================================
    TAGS
    ======================================== */
@@ -155,12 +150,11 @@
   border-radius: 999px;
 
   background: #ffffff;
-  color: #475569;
+  color: #252525;
 
   font-size: 0.9rem;
   font-weight: 700;
 }
-
 
 /* ========================================
    POSTER
@@ -183,7 +177,6 @@
   height: auto;
 }
 
-
 /* ========================================
    PROCESS
    ======================================== */
@@ -199,11 +192,10 @@
 .surreal-collage-process .section-heading h2 {
   margin: 0;
 
-  color: #132FB4;
+  color: #132fb4;
   font-size: clamp(2rem, 4vw, 3rem);
   font-family: "Bricolage", sans-serif;
 }
-
 
 /* ========================================
    PROCESS GRID
@@ -214,7 +206,6 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 }
-
 
 /* ========================================
    PROCESS CARDS
@@ -241,7 +232,7 @@
 
   border-radius: 50%;
 
-  background: #132FB4;
+  background: #132fb4;
   color: #ffffff;
 
   font-size: 0.9rem;
@@ -259,10 +250,9 @@
 .surreal-collage-process-card p {
   margin: 0;
 
-  color: #526173;
+  color: #252525;
   line-height: 1.7;
 }
-
 
 /* ========================================
    PROCESS IMAGES
@@ -276,7 +266,6 @@
 
   object-fit: contain;
 }
-
 
 /* ========================================
    TABLET
@@ -297,7 +286,6 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 
 /* ========================================
    MOBILE

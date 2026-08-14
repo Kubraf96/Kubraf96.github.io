@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import portrait from "../assets/images/about_portrait.png";
 import "../styles/about.css";
-import smiley from "../assets/icons/smiley_icon.svg";
 
 function AboutPage() {
   return (
@@ -17,7 +16,7 @@ function AboutPage() {
           <div className="about-right">
             <p>
               Jeg studerer multimediedesign i Aarhus med en særlig interesse for
-              UI-design, branding og visuelle identiteter.
+              UX/UI-design, branding og visuelle identiteter.
             </p>
 
             <p>
@@ -42,7 +41,6 @@ function AboutPage() {
             </p>
           </div>
         </div>
-          <img className="icon smiley" src={smiley} alt="" />
       </section>
     </>
   );
