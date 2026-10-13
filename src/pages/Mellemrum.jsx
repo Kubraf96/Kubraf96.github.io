@@ -74,10 +74,7 @@ function Mellemrum() {
           </div>
 
           <div className="mellemrum-hero-image">
-            <img
-              src={project.image}
-              alt="Forside og eventoversigt for Mellemrum"
-            />
+            <img src={project.image} alt="Mellemrum vist på en laptop" />
           </div>
         </section>
 
