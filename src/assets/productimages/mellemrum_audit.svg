@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500" fill="none">
+  <rect width="920" height="500" fill="#FFFDF9"/>
+  <text x="28" y="39" fill="#252525" font-family="Arial, sans-serif" font-size="22" font-weight="700">Teknisk Audit af Mellemrum</text>
+  <rect x="24" y="60" width="872" height="56" fill="#E76B34"/>
+  <text x="43" y="94" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">Område</text>
+  <text x="239" y="94" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">Fund og evidens</text>
+  <text x="460" y="94" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">Konsekvens</text>
+  <text x="670" y="94" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">Prioritet</text>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#252525">
+    <rect x="24" y="116" width="872" height="82" fill="#F6E4D8"/>
+    <rect x="24" y="116" width="194" height="82" fill="#E76B34"/>
+    <text x="43" y="148" fill="#FFFFFF" font-weight="700">React-arkitektur</text>
+    <text x="239" y="146">Uensartede komponenter</text>
+    <text x="239" y="165">og gentaget logik</text>
+    <text x="460" y="146">Sværere at vedligeholde</text>
+    <text x="460" y="165">og udvide</text>
+    <text x="670" y="155" font-weight="700">Høj</text>
+    <rect x="754" y="137" width="118" height="29" rx="4" fill="#7AE679"/>
+    <text x="775" y="156" font-weight="700">Implementeret</text>
+
+    <rect x="24" y="198" width="872" height="82" fill="#FFF7F0"/>
+    <rect x="24" y="198" width="194" height="82" fill="#E76B34"/>
+    <text x="43" y="231" fill="#FFFFFF" font-weight="700">Datamodel</text>
+    <text x="239" y="228">Gentagne data og uklare</text>
+    <text x="239" y="247">relationer mellem tabeller</text>
+    <text x="460" y="228">Risiko for dubletter</text>
+    <text x="460" y="247">og inkonsistens</text>
+    <text x="670" y="237" font-weight="700">Høj</text>
+    <rect x="754" y="219" width="118" height="29" rx="4" fill="#7AE679"/>
+    <text x="775" y="238" font-weight="700">Implementeret</text>
+
+    <rect x="24" y="280" width="872" height="82" fill="#F6E4D8"/>
+    <rect x="24" y="280" width="194" height="82" fill="#E76B34"/>
+    <text x="43" y="313" fill="#FFFFFF" font-weight="700">Tilmeldingsflow</text>
+    <text x="239" y="310">Manglende feedback ved</text>
+    <text x="239" y="329">fejl og succes</text>
+    <text x="460" y="310">Brugeren er usikker</text>
+    <text x="460" y="329">på handlingens status</text>
+    <text x="670" y="319" font-weight="700">Høj</text>
+    <rect x="754" y="301" width="118" height="29" rx="4" fill="#7AE679"/>
+    <text x="775" y="320" font-weight="700">Implementeret</text>
+
+    <rect x="24" y="362" width="872" height="82" fill="#FFF7F0"/>
+    <rect x="24" y="362" width="194" height="82" fill="#E76B34"/>
+    <text x="43" y="395" fill="#FFFFFF" font-weight="700">Robusthed</text>
+    <text x="239" y="392">Datahentning uden tydelige</text>
+    <text x="239" y="411">loading- og fejlbilleder</text>
+    <text x="460" y="392">Svagere oplevelse ved</text>
+    <text x="460" y="411">manglende data</text>
+    <text x="670" y="401" font-weight="700">Mellem</text>
+    <rect x="754" y="383" width="118" height="29" rx="4" fill="#7AE679"/>
+    <text x="775" y="402" font-weight="700">Implementeret</text>
+  </g>
+</svg>

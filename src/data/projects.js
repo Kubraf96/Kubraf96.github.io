@@ -3,6 +3,7 @@ import controlImg from "../assets/productimages/Control.png";
 import lastOfUsImg from "../assets/images/last_of_us/LOU_step_4.png";
 import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
 import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
+import mellemrumPreview from "../assets/images/control/mellemrum/mellemrum_hero.png";
 
 const projects = [
   {
@@ -39,6 +40,20 @@ const projects = [
         href: "https://github.com",
       },
     ],
+  },
+  {
+    slug: "mellemrum",
+    title: "Mellemrum",
+    subtitle: "Product Optimization",
+    year: "2026",
+    summary:
+      "En lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.",
+    description:
+      "Mellemrum er en lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
+    tools: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
+    image: mellemrumPreview,
+    links: [],
   },
   {
     slug: "last-of-us",
