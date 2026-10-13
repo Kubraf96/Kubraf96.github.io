@@ -198,7 +198,7 @@ function Mellemrum() {
                 src={supabaseSchema}
                 alt="Supabase-datamodel med relationerne mellem tabellerne"
               />
-              <figcaption>Schema visualiseret fra Supabase</figcaption>
+              <figcaption>Schema Visualizer fra Supabase</figcaption>
             </figure>
           </article>
 
@@ -245,7 +245,10 @@ function Mellemrum() {
             <div className="mellemrum-image-comparison mellemrum-structure-comparison">
               <figure>
                 <figcaption>Før</figcaption>
-                <img src={codeStructureBefore} alt="Mappestruktur før oprydning" />
+                <img
+                  src={codeStructureBefore}
+                  alt="Mappestruktur før oprydning"
+                />
               </figure>
               <figure>
                 <figcaption>Efter</figcaption>
@@ -279,7 +282,10 @@ function Mellemrum() {
               </p>
             </div>
             <figure className="mellemrum-result-figure mellemrum-loading-figure">
-              <img src={loadingSkeleton} alt="Skeleton-layout under indlæsning" />
+              <img
+                src={loadingSkeleton}
+                alt="Skeleton-layout under indlæsning"
+              />
             </figure>
           </article>
         </section>
