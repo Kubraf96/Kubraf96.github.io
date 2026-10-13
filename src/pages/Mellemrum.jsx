@@ -274,7 +274,7 @@ function Mellemrum() {
                 Jeg forbedrede også håndteringen af data på eventdetaljesiden.
                 Mens eventet hentes, vises et skeleton-layout, så brugeren kan
                 se, at siden indlæses. Hvis datahentningen fejler, vises en
-                fejlbesked i stedet for en tom side. Det gør siden mere robust
+                fejlbesked i stedet for en tom side. Det gør siden mere fungerende
                 og giver brugeren bedre feedback.
               </p>
             </div>

@@ -32,7 +32,14 @@ const projects = [
       "Et social media-projekt for det fiktive tøj retailer mærke Control med fokus på community, street culture og visuel identitet.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte.",
-    tags: ["Social Media", "Figma", "Adobe Express", "Branding", "Campaigns", "Visual Identity"], 
+    tags: [
+      "Social Media",
+      "Figma",
+      "Adobe Express",
+      "Branding",
+      "Campaigns",
+      "Visual Identity",
+    ],
     image: controlImg,
     links: [
       {
@@ -49,7 +56,7 @@ const projects = [
     summary:
       "En lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.",
     description:
-      "Mellemrum er en lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.",
+      "Mellemrum er en lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.  I projektet arbejdede jeg med at forbedre datamodellen, tilmeldingsflowet og kodens struktur for at gøre løsningen mere overskuelig og lettere at videreudvikle.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
     tools: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
     image: mellemrumPreview,
