@@ -26,11 +26,32 @@
   color: #252525;
   background: #f7f4ef;
 
+  --project-eyebrow-size: 0.95rem;
+  --project-title-size: clamp(4rem, 7vw, 6.5rem);
+  --project-section-title-size: clamp(2rem, 4vw, 3rem);
+  --project-hero-copy-size: 1.1rem;
+  --project-copy-size: 1rem;
+  --project-copy-line-height: 1.6;
+  --project-meta-label-size: 0.9rem;
+  --project-meta-value-size: 1rem;
+  --project-tag-size: 0.85rem;
+  --project-hero-image-width: 580px;
+  --project-number-size: 2.5rem;
+  --project-number-font-size: 0.9rem;
+  --project-card-title-size: 1.2rem;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --project-title-size: clamp(3.2rem, 16vw, 5rem);
+    --project-section-title-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
 }
 
 .project-back-arrow {
@@ -362,8 +383,67 @@ p {
   border-radius: 999px;
   background: #ffffff;
   color: #252525;
-  padding: 0.35rem 0.7rem;
-  font-size: 0.9rem;
+  padding: 0.45rem 0.8rem;
+  font-size: var(--project-tag-size);
+  font-weight: 700;
+}
+
+.project-detail .detail-subtitle {
+  color: #526173;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-eyebrow-size);
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+.project-detail .eyebrow {
+  color: #526173;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-eyebrow-size);
+  font-weight: 600;
+  letter-spacing: 0.35em;
+}
+
+.project-detail h1 {
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-title-size);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+
+.project-detail h2 {
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-section-title-size);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.project-detail .lead {
+  font-size: var(--project-hero-copy-size);
+  line-height: 1.7;
+}
+
+.project-detail-meta .detail-label {
+  font-size: var(--project-meta-label-size);
+}
+
+.project-detail-meta > div > p:last-child {
+  font-size: var(--project-meta-value-size);
+}
+
+.project-detail .process-step-number {
+  display: grid;
+  width: var(--project-number-size);
+  height: var(--project-number-size);
+  margin: 0 0 1rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #132fb4;
+  color: #ffffff;
+  font-size: var(--project-number-font-size);
   font-weight: 700;
 }
 

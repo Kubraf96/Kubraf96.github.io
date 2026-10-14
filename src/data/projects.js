@@ -4,6 +4,7 @@ import lastOfUsImg from "../assets/images/last_of_us/LOU_step_4.png";
 import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
 import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
 import mellemrumPreview from "../assets/images/control/mellemrum/mellemrum_hero.png";
+import vuuhHero from "../assets/images/vuuh/hero.jpg";
 
 const projects = [
   {
@@ -54,13 +55,43 @@ const projects = [
     subtitle: "Product Optimization",
     year: "2026",
     summary:
-      "En lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.",
+      "Videreudvikling af en kultur- og eventplatform med React, JavaScript og Supabase, hvor jeg arbejdede med funktionalitet og brugeroplevelse.",
     description:
       "Mellemrum er en lokal kultur- og eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer.  I projektet arbejdede jeg med at forbedre datamodellen, tilmeldingsflowet og kodens struktur for at gøre løsningen mere overskuelig og lettere at videreudvikle.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
     tools: ["HTML", "CSS", "JavaScript", "React", "Supabase"],
     image: mellemrumPreview,
     links: [],
+  },
+  {
+    slug: "vuuh",
+    title: "Vuuh",
+    subtitle: "Onboarding",
+    year: "2026",
+    summary:
+      "UX/UI-redesign af Vuuhs onboardingflow med fokus på at gøre opsætningen af Shopify-integrationen mere overskuelig og intuitiv.",
+    description:
+      "Vuuh er en platform, der automatiserer udvekslingen af produktdata og billeder mellem brands og forhandlere. I projektet arbejdede jeg med at redesigne onboardingoplevelsen med fokus på at gøre opsætningen af Shopify-integrationen mere overskuelig og guide nye brugere videre til de næste trin.",
+    tags: [
+      "Figma",
+      "UX Audit",
+      "UX/UI Design",
+      "Interaction Design",
+      "Accessibility",
+      "Onboarding",
+    ],
+    tools: [
+      "Figma",
+      "Nielsen’s 10 Usability Heuristics",
+      "Cognitive Walkthrough",
+    ],
+    image: vuuhHero,
+    links: [
+      {
+        label: "Se projekt",
+        href: "/projects/vuuh",
+      },
+    ],
   },
   {
     slug: "last-of-us",

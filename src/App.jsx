@@ -11,6 +11,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import TwoGather from "./pages/2Gather";
 import Control from "./pages/Control";
 import Mellemrum from "./pages/Mellemrum";
+import Vuuh from "./pages/Vuuh";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/projects/2gather-event-app" element={<TwoGather />} />
           <Route path="/projects/control" element={<Control />} />
           <Route path="/projects/mellemrum" element={<Mellemrum />} />
+          <Route path="/projects/vuuh" element={<Vuuh />} />
           <Route
             path="/projects/surreal-collage"
             element={<SurrealCollage />}

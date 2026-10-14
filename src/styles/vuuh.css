@@ -1,0 +1,451 @@
+.vuuh-page {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  padding: 8rem 0 6rem;
+}
+
+.vuuh-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 3rem;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  text-decoration: none;
+}
+
+.vuuh-back-link img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.vuuh-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 3rem;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.vuuh-hero-copy {
+  min-width: 0;
+}
+
+.vuuh-eyebrow {
+  margin: 0 0 1.25rem;
+  color: #526173;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-eyebrow-size);
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+.vuuh-hero h1 {
+  margin-bottom: 1rem;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-title-size);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+
+.vuuh-intro {
+  margin-bottom: 1.75rem;
+  color: #252525;
+  font-size: var(--project-hero-copy-size);
+  line-height: 1.7;
+}
+
+.vuuh-meta {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+}
+
+.vuuh-meta div {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 0.5rem;
+}
+
+.vuuh-meta dt {
+  font-size: var(--project-meta-label-size);
+  font-weight: 700;
+}
+
+.vuuh-meta dd {
+  margin: 0;
+  color: #526173;
+  font-size: var(--project-meta-value-size);
+}
+
+.vuuh-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.vuuh-tags li {
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #252525;
+  font-size: var(--project-tag-size);
+  font-weight: 700;
+}
+
+.vuuh-hero-image img {
+  display: block;
+  width: min(100%, var(--project-hero-image-width));
+  max-width: var(--project-hero-image-width);
+  height: auto;
+  margin-left: auto;
+}
+
+.vuuh-section {
+  padding: 2.75rem 0;
+  border-top: 1px solid #ded6ca;
+}
+
+.vuuh-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.vuuh-number {
+  display: grid;
+  flex: 0 0 var(--project-number-size);
+  width: var(--project-number-size);
+  height: var(--project-number-size);
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #132fb4;
+  font-size: var(--project-number-font-size);
+  font-weight: 700;
+}
+
+.vuuh-section-heading h2 {
+  margin: 0;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-section-title-size);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.vuuh-section-copy {
+  max-width: 980px;
+  margin: 0 0 1.75rem;
+  color: #252525;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
+}
+
+.vuuh-research-copy {
+  margin-bottom: 1rem;
+}
+
+.vuuh-audit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #ec0bb1;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.vuuh-audit-link img {
+  width: 1.25rem;
+  height: 1.25rem;
+  transform: rotate(180deg);
+}
+
+.vuuh-solution-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.vuuh-solution-list article {
+  padding: 1.25rem;
+  border: 1px solid #ded6ca;
+  border-radius: 0.75rem;
+  background: #fffaf3;
+}
+
+.vuuh-solution-list article > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--project-number-size);
+  height: var(--project-number-size);
+  border-radius: 50%;
+  background: #132fb4;
+  color: #ffffff;
+  font-size: var(--project-number-font-size);
+  font-weight: 700;
+}
+
+.vuuh-solution-list h3 {
+  margin: 0.6rem 0;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-card-title-size);
+  line-height: 1.2;
+}
+
+.vuuh-results > .vuuh-section-heading {
+  margin-bottom: 2rem;
+}
+
+.vuuh-result {
+  padding: 1.75rem 0;
+  border-top: 1px solid #e3dbcf;
+}
+
+.vuuh-results > .vuuh-result:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.vuuh-result-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.vuuh-result-number,
+.vuuh-hierarchy-number {
+  display: grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #7186d6;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.vuuh-result-header h3 {
+  margin: 0;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-card-title-size);
+  line-height: 1.2;
+}
+
+.vuuh-result-copy {
+  max-width: 760px;
+  margin: 0 0 1.75rem 2.8rem;
+  color: #252525;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
+}
+
+.vuuh-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.vuuh-feedback-comparison {
+  width: min(100%, 1024px);
+  gap: 3rem;
+  margin-inline: auto;
+}
+
+.vuuh-figure {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+}
+
+.vuuh-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.vuuh-image-label {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: #586bd0;
+  color: #ffffff;
+  font-family: "Bricolage", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.vuuh-result-split {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.vuuh-result-copy-block .vuuh-result-copy {
+  margin-bottom: 0;
+}
+
+.vuuh-result-image {
+  width: 100%;
+  max-width: 450px;
+  justify-self: center;
+}
+
+.vuuh-guided-comparison {
+  margin-top: 2rem;
+}
+
+.vuuh-hierarchy .vuuh-section-copy {
+  margin-bottom: 1.75rem;
+}
+
+.vuuh-hierarchy-item {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid #e3dbcf;
+}
+
+.vuuh-hierarchy-copy {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  column-gap: 0.8rem;
+  align-content: start;
+}
+
+.vuuh-hierarchy-number {
+  grid-row: 1 / span 2;
+}
+
+.vuuh-hierarchy-copy h3 {
+  margin: 0;
+  color: #132fb4;
+  font-family: "Bricolage", sans-serif;
+  font-size: var(--project-card-title-size);
+  line-height: 1.2;
+}
+
+.vuuh-hierarchy-copy p {
+  grid-column: 2;
+  margin: 0.6rem 0 0;
+  color: #252525;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
+}
+
+.vuuh-hierarchy-image {
+  width: 100%;
+}
+
+.vuuh-shopname-image {
+  max-width: 28rem;
+}
+
+.vuuh-closing-section .vuuh-section-heading {
+  margin-bottom: 1rem;
+}
+
+.vuuh-closing-copy {
+  max-width: 980px;
+  margin: 0 0 0 2.8rem;
+  color: #252525;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
+}
+
+@media (max-width: 800px) {
+  .vuuh-page {
+    padding-top: 7rem;
+  }
+
+  .vuuh-hero,
+  .vuuh-result-split,
+  .vuuh-hierarchy-item,
+  .vuuh-solution-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .vuuh-hero {
+    align-items: start;
+  }
+
+  .vuuh-hero-image {
+    order: -1;
+  }
+
+  .vuuh-result-split .vuuh-result-image {
+    max-width: 36rem;
+    justify-self: center;
+  }
+
+  .vuuh-hierarchy-image {
+    max-width: 42rem;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .vuuh-page {
+    width: min(100% - 2rem, 1120px);
+    padding-top: 6.5rem;
+  }
+
+  .vuuh-back-link {
+    margin-bottom: 2rem;
+  }
+
+  .vuuh-hero {
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .vuuh-section {
+    padding: 2rem 0;
+  }
+
+  .vuuh-compare-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .vuuh-feedback-comparison {
+    gap: 1.5rem;
+  }
+
+  .vuuh-result-copy {
+    margin-left: 0;
+  }
+
+  .vuuh-closing-copy {
+    margin-left: 0;
+  }
+
+  .vuuh-hierarchy-item {
+    gap: 1rem;
+  }
+}
