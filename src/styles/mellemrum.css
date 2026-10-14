@@ -32,25 +32,29 @@
 }
 
 .mellemrum-eyebrow {
-  margin-bottom: 0.65rem;
+  margin: 0 0 1.25rem;
   color: #526173;
   font-family: "Bricolage", sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.12em;
+  font-size: var(--project-eyebrow-size);
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
 }
 
 .mellemrum-hero h1 {
   margin-bottom: 1rem;
   color: #132fb4;
   font-family: "Bricolage", sans-serif;
-  font-size: clamp(3.5rem, 7vw, 6rem);
-  line-height: 0.95;
+  font-size: var(--project-title-size);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
 }
 
 .mellemrum-intro {
   margin-bottom: 1.75rem;
   color: #252525;
-  line-height: 1.55;
+  font-size: var(--project-hero-copy-size);
+  line-height: 1.7;
 }
 
 .mellemrum-meta {
@@ -66,12 +70,14 @@
 }
 
 .mellemrum-meta dt {
+  font-size: var(--project-meta-label-size);
   font-weight: 700;
 }
 
 .mellemrum-meta dd {
   margin: 0;
   color: #526173;
+  font-size: var(--project-meta-value-size);
 }
 
 .mellemrum-tags {
@@ -84,10 +90,13 @@
 }
 
 .mellemrum-tags li {
-  padding: 0.35rem 0.7rem;
-  border: 1px solid #8b94bb;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #ded6ca;
   border-radius: 999px;
-  font-size: 0.8rem;
+  background: #ffffff;
+  color: #252525;
+  font-size: var(--project-tag-size);
+  font-weight: 700;
 }
 
 .mellemrum-project-links {
@@ -116,8 +125,8 @@
 
 .mellemrum-hero-image img {
   display: block;
-  width: min(100%, 580px);
-  max-width: 580px;
+  width: min(100%, var(--project-hero-image-width));
+  max-width: var(--project-hero-image-width);
   margin-left: auto;
   height: auto;
 }
@@ -136,14 +145,14 @@
 
 .mellemrum-number {
   display: grid;
-  flex: 0 0 2rem;
-  width: 2rem;
-  height: 2rem;
+  flex: 0 0 var(--project-number-size);
+  width: var(--project-number-size);
+  height: var(--project-number-size);
   place-items: center;
   border-radius: 50%;
   color: #ffffff;
   background: #132fb4;
-  font-size: 0.75rem;
+  font-size: var(--project-number-font-size);
   font-weight: 700;
 }
 
@@ -151,8 +160,9 @@
   margin: 0;
   color: #132fb4;
   font-family: "Bricolage", sans-serif;
-  font-size: clamp(1.4rem, 2.8vw, 2rem);
-  line-height: 1.1;
+  font-size: var(--project-section-title-size);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
 }
 
 .mellemrum-section-copy,
@@ -161,8 +171,8 @@
   max-width: 760px;
   margin-bottom: 0.9rem;
   color: #252525;
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
 }
 
 .mellemrum-audit {
@@ -226,8 +236,15 @@
 }
 
 .mellemrum-solution-list article > span {
-  color: #132fb4;
-  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--project-number-size);
+  height: var(--project-number-size);
+  border-radius: 50%;
+  background: #132fb4;
+  color: #ffffff;
+  font-size: var(--project-number-font-size);
   font-weight: 700;
 }
 
@@ -236,14 +253,14 @@
   margin: 0.6rem 0;
   color: #132fb4;
   font-family: "Bricolage", sans-serif;
-  font-size: 1.3rem;
+  font-size: var(--project-card-title-size);
 }
 
 .mellemrum-solution-list p {
   margin: 0;
   color: #252525;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
 }
 
 .mellemrum-results > .mellemrum-section-heading {
@@ -392,8 +409,8 @@
 .mellemrum-loading-copy p {
   margin: 0;
   color: #252525;
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
 }
 
 .mellemrum-loading-figure img {
@@ -408,8 +425,8 @@
 .mellemrum-reflection-copy p {
   margin: 0 0 1rem;
   color: #252525;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
 }
 
 .mellemrum-reflection-copy p:last-child {
@@ -443,15 +460,15 @@
   margin: 0 0 0.65rem;
   color: #132fb4;
   font-family: "Bricolage", sans-serif;
-  font-size: 1.35rem;
+  font-size: var(--project-card-title-size);
   line-height: 1.1;
 }
 
 .mellemrum-business-grid article > p:last-child {
   margin: 0;
   color: #252525;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: var(--project-copy-size);
+  line-height: var(--project-copy-line-height);
 }
 
 @media (max-width: 800px) {
@@ -493,7 +510,7 @@
 
 @media (max-width: 520px) {
   .mellemrum-page {
-    width: min(100% - 1.5rem, 1120px);
+    width: min(100% - 2rem, 1120px);
     padding-top: 6.5rem;
   }
 
