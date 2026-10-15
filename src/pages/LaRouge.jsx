@@ -289,7 +289,7 @@ function LaRouge() {
                 id="la-rouge-marketing"
               />
               <p>
-                For at skabe opmærksomhed om RE-RŌUGE blandt LA RŌUGEs
+                For at skabe opmærksomhed om RE RŌUGE blandt LA RŌUGEs
                 eksisterende målgruppe kan brandet afholde et launch-event i et
                 fysisk lokale. Her får kunderne mulighed for at opleve
                 secondhand-produkterne på nært hold, hvilket kan skabe større
