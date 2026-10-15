@@ -77,10 +77,8 @@ function Vuuh() {
             <h2 id="vuuh-challenge-title">Udfordring</h2>
           </div>
           <p className="vuuh-section-copy">
-            Den eksisterende onboarding manglede tydelig vejledning og feedback,
-            mens unødvendig information og visuel støj gjorde det svært at finde
-            næste skridt. Udfordringen var at forenkle opsætningen og skabe et
-            tydeligere visuelt hierarki.
+            Vuuh manglede en onboarding, der hjalp nye brugere med at
+            komme i gang med platformen og opsætte Shopify-integrationen.
           </p>
         </section>
 
@@ -90,11 +88,20 @@ function Vuuh() {
             <h2 id="vuuh-research-title">Undersøgelse og prioritering</h2>
           </div>
           <p className="vuuh-section-copy vuuh-research-copy">
-            Jeg undersøgte brugergrænsefladen med Nielsen’s 10
-            usability-heuristikker og brugte Cognitive Walkthrough til at
-            analysere brugerrejsen for Shopify-opsætningen. Jeg fokuserede på
-            barrierer, der gjorde processen uklar eller unødigt besværlig.
+            Brugergrænsefladen blev undersøgt gennem en UX audit med
+            udgangspunkt i Nielsens 10 usability-heuristikker. Derudover blev
+            Cognitive Walkthrough anvendt til at analysere brugerrejsen for
+            Shopify-opsætningen.
           </p>
+          <a
+            className="vuuh-audit-link"
+            href={`${import.meta.env.BASE_URL}UX%20Audit%20Summary.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Se UX Audit Summary (bilag)
+            <img src={arrowIcon} alt="" />
+          </a>
           <a
             className="vuuh-audit-link"
             href={`${import.meta.env.BASE_URL}Heuristisk%20evaluering,%20Cognitive%20Walkthrough.pdf`}
@@ -113,7 +120,7 @@ function Vuuh() {
           </div>
 
           <p className="vuuh-section-copy">
-            På baggrund af min analyse arbejdede jeg med tre centrale
+            På baggrund af analysen blev der arbejdet med tre centrale
             forbedringer af onboardingoplevelsen
           </p>
           <div className="vuuh-solution-list">
@@ -142,7 +149,7 @@ function Vuuh() {
             </div>
 
             <p className="vuuh-result-copy">
-              Jeg tydeliggjorde status efter installationen og guidede brugeren
+              Status efter installationen blev tydeliggjort og guider brugeren
               videre til næste trin.
             </p>
 
@@ -173,10 +180,10 @@ function Vuuh() {
                 <h3>Efter opsætning</h3>
               </div>
               <p className="vuuh-result-copy">
-                Jeg tilføjede en success-popup, der bekræfter, at Vuuh og
-                Shopify er forbundet. Samtidig præsenteres brugeren for
-                relevante næste skridt, så det er lettere at fortsætte
-                opsætningen uden selv at skulle finde ud af, hvad man skal gøre
+                Der blev tilføjet en bekræftelses-popup, som bekræfter at Vuuh
+                og Shopify er forbundet. Samtidig præsenteres brugeren for
+                relevante næste skridt, så det bliver lettere at fortsætte
+                opsætningen uden at skulle finde ud af, hvad der skal gøres
                 herfra.
               </p>
             </div>
@@ -197,10 +204,11 @@ function Vuuh() {
             <h2 id="vuuh-guided-title">Guidet opsætning</h2>
           </div>
           <p className="vuuh-section-copy">
-            Jeg introducerede en onboarding-checkliste med tre trin, der guider
-            brugeren gennem opsætningen. Gennemførte trin fjernes fra listen, så
-            fokus flyttes til næste handling. Samtidig reducerede jeg
-            Shopify-opsætningen fra 11 til 6 trin.
+            For at skabe en mere overskuelig opsætning blev onboardingflowet
+            struktureret omkring en tjekliste med tre trin. Efterhånden som
+            brugeren gennemfører trinene, fjernes de fra listen, så
+            opmærksomheden naturligt rettes mod næste handling. Samtidig blev
+            antallet af trin i Shopify-opsætningen reduceret fra 11 til 6.
           </p>
           <a
             className="vuuh-audit-link"
@@ -242,8 +250,8 @@ function Vuuh() {
           </div>
 
           <p className="vuuh-section-copy">
-            Jeg arbejdede med farver, placering og mængden af information for at
-            gøre de vigtigste handlinger mere fremtrædende.
+            Farver, placering og informationsmængde blev tilpasset, så brugerens
+            opmærksomhed i højere grad ledes mod de vigtigste handlinger.
           </p>
 
           <article className="vuuh-hierarchy-item">
@@ -311,7 +319,7 @@ function Vuuh() {
             <h2 id="vuuh-accessibility-title">Accessibility Design Check</h2>
           </div>
           <p className="vuuh-closing-copy">
-            Jeg kvalificerede prototypen gennem et Accessibility Design Check.
+            Vi kvalificerede prototypen gennem et Accessibility Design Check.
             Det førte blandt andet til større tekst og knapper, tydeligere
             visuelt fokus og automatisk udfyldning af butiksnavnet for at
             reducere brugerens behov for at huske information.
@@ -327,11 +335,11 @@ function Vuuh() {
             <h2 id="vuuh-reflection-title">Faglig refleksion</h2>
           </div>
           <p className="vuuh-closing-copy">
-            Jeg prioriterede at gøre onboardingens vigtigste handlinger
+            Vi prioriterede at gøre onboardingens vigtigste handlinger
             tydeligere, frem for at præsentere alle funktioner med samme
-            visuelle vægt. Med checklisten tilføjede jeg en mere struktureret
+            visuelle vægt. Med checklisten tilføjede vi en mere struktureret
             vejledning, mens andre elementer blev nedtonet for at skabe et
-            klarere fokus. Samtidig arbejdede jeg med at gøre relevant
+            klarere fokus. Samtidig arbejdede vi med at gøre relevant
             information lettere at finde og reducere behovet for, at brugeren
             selv skal huske oplysninger undervejs. Hvis jeg skulle videreudvikle
             løsningen, ville jeg teste prototypen med nye brugere for at
