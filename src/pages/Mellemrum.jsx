@@ -287,9 +287,11 @@ function Mellemrum() {
               datakvalitet, brugeroplevelse og vedligeholdelse frem for mindre
               visuelle justeringer. Hvis jeg videreudviklede løsningen, ville
               jeg forbedre valideringen af e-mailadresser, undersøge
-              tilgængeligheden og videreudvikle mailfunktionen. På længere sigt
-              kunne platformen også understøtte afmelding og give arrangører
-              mulighed for selv at administrere events.
+              tilgængeligheden og videreudvikle mailfunktionen. Jeg ville også
+              justere farverne på feedbackbeskederne, så succes og allerede
+              gennemførte handlinger fremstår tydeligere. På længere sigt kunne
+              platformen understøtte afmelding og give arrangører mulighed for
+              selv at administrere events.
             </p>
           </div>
         </section>
