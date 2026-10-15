@@ -5,6 +5,7 @@ import surrealismImg from "../assets/productimages/Surrealism_Collage.jpg";
 import twogatherhero from "../assets/productimages/2gather/2gather_hero.png";
 import mellemrumPreview from "../assets/images/control/mellemrum/mellemrum_hero.png";
 import vuuhHero from "../assets/images/vuuh/hero.jpg";
+import laRougeHero from "../assets/productimages/re_rouge/re_rouge_hero.svg";
 
 const projects = [
   {
@@ -90,6 +91,32 @@ const projects = [
       {
         label: "Se projekt",
         href: "/projects/vuuh",
+      },
+    ],
+  },
+  {
+    slug: "la-rouge",
+    title: "RE RŌUGE",
+    subtitle: "Re-commerce",
+    year: "2026",
+    summary:
+      "Udvikling af RE-RŌUGE, et secondhand-koncept og subbrand under LA RŌUGE, med fokus på brandidentitet, visuel kommunikation og marketing.",
+    description:
+      "LA RŌUGE er et dansk modebrand, der designer tidløst tøj med fokus på kvalitet, selvkærlighed og personlig stil. I et fælles projekt arbejdede vi med at videreudvikle brandets eksisterende secondhand-koncept til subbrandet RE-RŌUGE gennem en stærkere visuel identitet, en forbedret digital købs- og salgsoplevelse samt idéer til markedsføring på sociale medier og i fysiske butikker.",
+    tools: ["Figma"],
+    tags: [
+      "Konceptudvikling",
+      "Brandidentitet",
+      "Målgruppe",
+      "Prototype",
+      "UI/UX",
+      "Re-commerce",
+    ],
+    image: laRougeHero,
+    links: [
+      {
+        label: "Se projekt",
+        href: "/projects/la-rouge",
       },
     ],
   },
