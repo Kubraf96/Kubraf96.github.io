@@ -99,6 +99,30 @@
   font-weight: 700;
 }
 
+.vuuh-project-links {
+  display: grid;
+  justify-items: start;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.vuuh-project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #ec0bb1;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.vuuh-project-links img {
+  width: 1.25rem;
+  height: 1.25rem;
+  transform: rotate(180deg);
+}
+
 .vuuh-hero-image img {
   display: block;
   width: min(100%, var(--project-hero-image-width));

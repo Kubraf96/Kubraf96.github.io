@@ -57,6 +57,17 @@ function Vuuh() {
                 <li key={tag}>{tag}</li>
               ))}
             </ul>
+
+            <div className="vuuh-project-links">
+              <a
+                href="https://www.figma.com/proto/L1UHBnCJkp9Y1IjsxPrgfm/Case-2--Vuuh-?node-id=131-462&p=f&viewport=-22%2C389%2C0.06&t=ePYJDWqKyHVmSsDl-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=131%3A462&page-id=59%3A410"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Se Figma prototype</span>
+                <img src={arrowIcon} alt="" />
+              </a>
+            </div>
           </div>
 
           <div className="vuuh-hero-image">
