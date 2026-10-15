@@ -71,7 +71,7 @@ const projects = [
     summary:
       "UX/UI-redesign af Vuuhs onboardingflow med fokus på at gøre opsætningen af Shopify-integrationen mere overskuelig og intuitiv.",
     description:
-      "Vuuh er en platform, der automatiserer udvekslingen af produktdata og billeder mellem brands og forhandlere. I projektet arbejdede jeg med at redesigne onboardingoplevelsen med fokus på at gøre opsætningen af Shopify-integrationen mere overskuelig og guide nye brugere videre til de næste trin.",
+      "Vuuh er en platform, der automatiserer udvekslingen af produktdata og billeder mellem brands og forhandlere. I et fælles projekt arbejdede vi med at redesigne onboardingoplevelsen med fokus på at gøre opsætningen af Shopify-integrationen mere overskuelig og guide nye brugere videre til de næste trin.",
     tags: [
       "Figma",
       "UX Audit",
