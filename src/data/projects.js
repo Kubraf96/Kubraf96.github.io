@@ -53,7 +53,7 @@ const projects = [
   {
     slug: "mellemrum",
     title: "Mellemrum",
-    subtitle: "Product Optimization",
+    subtitle: "React Optimization",
     year: "2026",
     summary:
       "Videreudvikling af en kultur- og eventplatform med React, JavaScript og Supabase, hvor jeg arbejdede med funktionalitet og brugeroplevelse.",
