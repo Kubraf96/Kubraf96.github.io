@@ -472,23 +472,33 @@
   aspect-ratio: 1.4;
 }
 
-.la-rouge-stand-images {
-  display: flex;
+.la-rouge-stand-media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
   width: 100%;
+  height: min(42rem, 80vh);
+}
+
+.la-rouge-stand-images,
+.la-rouge-filter-image {
+  display: grid;
+  min-width: 0;
   height: 100%;
-  justify-content: center;
+  align-items: center;
+  justify-items: start;
+  margin: 0;
 }
 
 .la-rouge-stand-images figure {
   display: flex;
   height: 100%;
-  flex-direction: column;
-  align-items: center;
   min-width: 0;
   margin: 0;
 }
 
-.la-rouge-stand-images img {
+.la-rouge-stand-images img,
+.la-rouge-filter-image img {
   width: auto;
   height: 100%;
   max-width: 100%;

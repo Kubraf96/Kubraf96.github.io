@@ -12,6 +12,7 @@ import instagramImage from "../assets/productimages/re_rouge/re_rouge_instagram.
 import flyerImage from "../assets/productimages/re_rouge/re_rouge_flyer.svg";
 import shopImage from "../assets/productimages/re_rouge/re_rouge_butik.svg";
 import standInformationImage from "../assets/productimages/re_rouge/re_rouge_stand_information.svg";
+import filteringImage from "../assets/productimages/re_rouge/re_rouge_filtrering.svg";
 import productIdentificationVideo from "../assets/productimages/re_rouge/re_rouge.mov";
 import "../styles/la-rouge.css";
 
@@ -298,7 +299,7 @@ function LaRouge() {
               </p>
               <p>
                 Synligheden kan desuden styrkes gennem en flyer, der følger med
-                online- og butikskøb. Den informerer kunderne om RE-RŌUGE og
+                online- og butikskøb. Den informerer kunderne om RE RŌUGE og
                 muligheden for at videresælge deres LA RŌUGE-tøj. På Instagram
                 kan målrettede opslag og visuelt indhold supplere indsatsen og
                 skabe yderligere opmærksomhed om konceptet.
@@ -349,9 +350,16 @@ function LaRouge() {
                   manglende indsigt i tøjets reelle udseende kan skabe tvivl og
                   afholde dem fra at gennemføre et køb.
                 </p>
+                <p>
+                  Derudover er der implementeret filtrering, så kunderne kan
+                  sortere produkterne efter farve, størrelse og stand. Det gør
+                  det lettere at finde produkter, der matcher deres præferencer,
+                  og giver dem bedre mulighed for at vurdere tøjet ud fra dets
+                  stand.
+                </p>
               </div>
-              {standImages.length ? (
-                <div className="la-rouge-small-media">
+              <div className="la-rouge-stand-media">
+                {standImages.length ? (
                   <div className="la-rouge-stand-images">
                     {standImages.map((image) => (
                       <figure key={image.src}>
@@ -359,12 +367,18 @@ function LaRouge() {
                       </figure>
                     ))}
                   </div>
-                </div>
-              ) : (
-                <div className="la-rouge-stand-placeholder">
-                  <p>Produktbilleder og standdokumentation tilføjes</p>
-                </div>
-              )}
+                ) : (
+                  <div className="la-rouge-stand-placeholder">
+                    <p>Produktbilleder og standdokumentation tilføjes</p>
+                  </div>
+                )}
+                <figure className="la-rouge-filter-image">
+                  <img
+                    src={filteringImage}
+                    alt="Filtrering af RE RŌUGEs produkter efter farve, størrelse og stand"
+                  />
+                </figure>
+              </div>
             </article>
           </div>
         </section>
