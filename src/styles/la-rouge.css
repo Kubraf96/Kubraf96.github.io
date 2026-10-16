@@ -450,9 +450,9 @@
 .la-rouge-small-media {
   display: flex;
   width: 100%;
-  height: min(42rem, 80vh);
+  height: min(48rem, 90vh);
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .la-rouge-small-media video {
@@ -461,7 +461,7 @@
   height: auto;
   aspect-ratio: 224 / 480;
   max-width: 100%;
-  max-height: min(42rem, 75vh);
+  max-height: min(48rem, 90vh);
   background: #f0ece6;
   object-fit: contain;
 }
@@ -477,7 +477,7 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   width: 100%;
-  height: min(42rem, 80vh);
+  min-height: min(42rem, 80vh);
 }
 
 .la-rouge-stand-images,
@@ -485,7 +485,7 @@
   display: grid;
   min-width: 0;
   height: 100%;
-  align-items: center;
+  align-items: start;
   justify-items: start;
   margin: 0;
 }
@@ -575,10 +575,10 @@
   }
 
   .la-rouge-small-media {
-    height: min(42rem, 78svh);
+    height: min(48rem, 85svh);
   }
 
   .la-rouge-small-media video {
-    max-height: 75svh;
+    max-height: 85svh;
   }
 }
