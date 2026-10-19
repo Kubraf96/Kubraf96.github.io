@@ -125,6 +125,25 @@ function TwoGather() {
                 <li key={tag}>{tag}</li>
               ))}
             </ul>
+
+            <div className="two-gather-project-links">
+              <a
+                href="https://www.figma.com/proto/ACURa8Y1utpPbYr5QhnOvR/Web-App-2GATHER?node-id=934-751&viewport=-79%2C464%2C0.11&t=vXcq9JYXo3N0PFbs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2792%3A6305&show-proto-sidebar=1&page-id=1%3A2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Se Figma prototype</span>
+                <img src={arrowIcon} alt="" />
+              </a>
+              <a
+                href="https://github.com/marieluisekuppe/web-app-2gather"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Se repository på GitHub</span>
+                <img src={arrowIcon} alt="" />
+              </a>
+            </div>
           </div>
 
           <div className="two-gather-hero-image">

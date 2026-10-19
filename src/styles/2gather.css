@@ -141,6 +141,30 @@
   font-weight: 700;
 }
 
+.two-gather-project-links {
+  display: grid;
+  justify-items: start;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.two-gather-project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #ec0bb1;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.two-gather-project-links img {
+  width: 1.25rem;
+  height: 1.25rem;
+  transform: rotate(180deg);
+}
+
 /* ========================================
    HERO IMAGE
    ======================================== */

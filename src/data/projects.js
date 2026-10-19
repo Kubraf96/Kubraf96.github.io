@@ -212,4 +212,21 @@ const projects = [
     ],
   },
 ];
+
+const projectOrder = [
+  "la-rouge",
+  "vuuh",
+  "mellemrum",
+  "last-of-us",
+  "surreal-collage",
+  "control",
+  "2gather-event-app",
+];
+
+projects.sort(
+  (firstProject, secondProject) =>
+    projectOrder.indexOf(firstProject.slug) -
+    projectOrder.indexOf(secondProject.slug),
+);
+
 export default projects;
